@@ -19,48 +19,64 @@
 		E42E081A237AF15400554134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E05072379870200554134 /* LaunchScreen.storyboard */; };
 		E42E081B237AF15400554134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42E05052379870200554134 /* Assets.xcassets */; };
 		E42E081C237AF15400554134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E05022379870100554134 /* Main.storyboard */; };
-		E42E0832237AF8C300554134 /* MyBaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42E082E237AF8A400554134 /* MyBaseFramework.framework */; };
-		E42E0833237AF8C300554134 /* MyBaseFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42E082E237AF8A400554134 /* MyBaseFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E42E0835237AF8C700554134 /* MyBaseFrameworkExtended.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0830237AF8A400554134 /* MyBaseFrameworkExtended.framework */; };
-		E42E0836237AF8C700554134 /* MyBaseFrameworkExtended.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0830237AF8A400554134 /* MyBaseFrameworkExtended.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4E7E217237C3C290012429E /* SimpleFeatureInjected.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42FD451237BFC2D00412B97 /* SimpleFeatureInjected.swift */; };
+		E4E7E218237C3C290012429E /* SimpleFeatureInjected.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42FD451237BFC2D00412B97 /* SimpleFeatureInjected.swift */; };
+		E4E7E219237C3C600012429E /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; };
+		E4E7E21A237C3C600012429E /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4E7E21C237C3C680012429E /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; };
+		E4E7E21D237C3C680012429E /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E42E082D237AF8A400554134 /* PBXContainerItemProxy */ = {
+		E42E0855237AFC5B00554134 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E42E0826237AF8A400554134 /* MyBaseFramework.xcodeproj */;
+			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E42E05A023799D9C00554134;
-			remoteInfo = MyBaseFramework;
+			remoteGlobalIDString = E42E0846237AFC5A00554134;
+			remoteInfo = SimpleInterface;
 		};
-		E42E082F237AF8A400554134 /* PBXContainerItemProxy */ = {
+		E42FD47D237C043D00412B97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E42E0826237AF8A400554134 /* MyBaseFramework.xcodeproj */;
+			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E42E07752379C82F00554134;
-			remoteInfo = MyBaseFrameworkExtended;
+			remoteGlobalIDString = E42FD47A237C032500412B97;
+			remoteInfo = SimpleInterfaceMock;
+		};
+		E4E7E221237C42140012429E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E42E0845237AFC5A00554134;
+			remoteInfo = SimpleInterface;
+		};
+		E4E7E223237C421E0012429E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E42FD46E237C032500412B97;
+			remoteInfo = SimpleInterfaceMock;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E42E0834237AF8C300554134 /* Embed Frameworks */ = {
+		E4E7E21B237C3C600012429E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E42E0833237AF8C300554134 /* MyBaseFramework.framework in Embed Frameworks */,
+				E4E7E21A237C3C600012429E /* SimpleInterface.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E42E0837237AF8C700554134 /* Embed Frameworks */ = {
+		E4E7E21E237C3C680012429E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E42E0836237AF8C700554134 /* MyBaseFrameworkExtended.framework in Embed Frameworks */,
+				E4E7E21D237C3C680012429E /* SimpleInterface.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,11 +92,12 @@
 		E42E05052379870200554134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E42E05082379870200554134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E42E050A2379870200554134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E42E0811237AF13000554134 /* HeaderExtended.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderExtended.h; sourceTree = "<group>"; };
-		E42E0812237AF13000554134 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		E42E0820237AF15400554134 /* ModulesTest1 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ModulesTest1 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42E0821237AF15400554134 /* ModulesTest1 copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ModulesTest1 copy2-Info.plist"; path = "/Users/roman_movchan/StudyProjects/ModulesTest1/ModulesTest1 copy2-Info.plist"; sourceTree = "<absolute>"; };
-		E42E0826237AF8A400554134 /* MyBaseFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MyBaseFramework.xcodeproj; path = MyBaseFramework/MyBaseFramework.xcodeproj; sourceTree = "<group>"; };
+		E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleInterface.xcodeproj; path = SimpleInterface/SimpleInterface.xcodeproj; sourceTree = "<group>"; };
+		E42FD451237BFC2D00412B97 /* SimpleFeatureInjected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFeatureInjected.swift; sourceTree = "<group>"; };
+		E4E7E1DC237C33C00012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/default/SimpleInterface.framework"; sourceTree = "<group>"; };
+		E4E7E1E0237C33EB0012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/mock/SimpleInterface.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42E0832237AF8C300554134 /* MyBaseFramework.framework in Frameworks */,
+				E4E7E219237C3C600012429E /* SimpleInterface.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42E0835237AF8C700554134 /* MyBaseFrameworkExtended.framework in Frameworks */,
+				E4E7E21C237C3C680012429E /* SimpleInterface.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,9 +123,9 @@
 		E42E04F02379870100554134 = {
 			isa = PBXGroup;
 			children = (
+				E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */,
 				E42E04FB2379870100554134 /* ModulesTest1 */,
 				E42E04FA2379870100554134 /* Products */,
-				E42E0826237AF8A400554134 /* MyBaseFramework.xcodeproj */,
 				E42E0821237AF15400554134 /* ModulesTest1 copy2-Info.plist */,
 				E42E0831237AF8C300554134 /* Frameworks */,
 			);
@@ -126,6 +143,7 @@
 		E42E04FB2379870100554134 /* ModulesTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				E42FD451237BFC2D00412B97 /* SimpleFeatureInjected.swift */,
 				E42E04FC2379870100554134 /* AppDelegate.swift */,
 				E42E04FE2379870100554134 /* SceneDelegate.swift */,
 				E42E05002379870100554134 /* ViewController.swift */,
@@ -133,26 +151,26 @@
 				E42E05052379870200554134 /* Assets.xcassets */,
 				E42E05072379870200554134 /* LaunchScreen.storyboard */,
 				E42E050A2379870200554134 /* Info.plist */,
-				E42E0812237AF13000554134 /* Header.h */,
-				E42E0811237AF13000554134 /* HeaderExtended.h */,
 			);
 			path = ModulesTest1;
-			sourceTree = "<group>";
-		};
-		E42E0827237AF8A400554134 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E42E082E237AF8A400554134 /* MyBaseFramework.framework */,
-				E42E0830237AF8A400554134 /* MyBaseFrameworkExtended.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E42E0831237AF8C300554134 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E4E7E1E0237C33EB0012429E /* SimpleInterface.framework */,
+				E4E7E1DC237C33C00012429E /* SimpleInterface.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E42E0852237AFC5A00554134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E42E0856237AFC5B00554134 /* SimpleInterface.framework */,
+				E42FD47E237C043D00412B97 /* SimpleInterface.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,11 +183,12 @@
 				E42E04F52379870100554134 /* Sources */,
 				E42E04F62379870100554134 /* Frameworks */,
 				E42E04F72379870100554134 /* Resources */,
-				E42E0834237AF8C300554134 /* Embed Frameworks */,
+				E4E7E21B237C3C600012429E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E4E7E222237C42140012429E /* PBXTargetDependency */,
 			);
 			name = ModulesTest1;
 			productName = ModulesTest1;
@@ -183,11 +202,12 @@
 				E42E0814237AF15400554134 /* Sources */,
 				E42E0818237AF15400554134 /* Frameworks */,
 				E42E0819237AF15400554134 /* Resources */,
-				E42E0837237AF8C700554134 /* Embed Frameworks */,
+				E4E7E21E237C3C680012429E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E4E7E224237C421E0012429E /* PBXTargetDependency */,
 			);
 			name = "ModulesTest1 copy";
 			productName = ModulesTest1;
@@ -222,8 +242,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = E42E0827237AF8A400554134 /* Products */;
-					ProjectRef = E42E0826237AF8A400554134 /* MyBaseFramework.xcodeproj */;
+					ProductGroup = E42E0852237AFC5A00554134 /* Products */;
+					ProjectRef = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -235,18 +255,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E42E082E237AF8A400554134 /* MyBaseFramework.framework */ = {
+		E42E0856237AFC5B00554134 /* SimpleInterface.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = MyBaseFramework.framework;
-			remoteRef = E42E082D237AF8A400554134 /* PBXContainerItemProxy */;
+			path = SimpleInterface.framework;
+			remoteRef = E42E0855237AFC5B00554134 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E42E0830237AF8A400554134 /* MyBaseFrameworkExtended.framework */ = {
+		E42FD47E237C043D00412B97 /* SimpleInterface.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = MyBaseFrameworkExtended.framework;
-			remoteRef = E42E082F237AF8A400554134 /* PBXContainerItemProxy */;
+			path = SimpleInterface.framework;
+			remoteRef = E42FD47D237C043D00412B97 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -281,6 +301,7 @@
 			files = (
 				E42E05012379870100554134 /* ViewController.swift in Sources */,
 				E42E04FD2379870100554134 /* AppDelegate.swift in Sources */,
+				E4E7E217237C3C290012429E /* SimpleFeatureInjected.swift in Sources */,
 				E42E04FF2379870100554134 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,11 +312,25 @@
 			files = (
 				E42E0815237AF15400554134 /* ViewController.swift in Sources */,
 				E42E0816237AF15400554134 /* AppDelegate.swift in Sources */,
+				E4E7E218237C3C290012429E /* SimpleFeatureInjected.swift in Sources */,
 				E42E0817237AF15400554134 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4E7E222237C42140012429E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleInterface;
+			targetProxy = E4E7E221237C42140012429E /* PBXContainerItemProxy */;
+		};
+		E4E7E224237C421E0012429E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleInterfaceMock;
+			targetProxy = E4E7E223237C421E0012429E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E42E05022379870100554134 /* Main.storyboard */ = {
@@ -353,6 +388,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SYMROOT)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -367,6 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -413,6 +450,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SYMROOT)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -421,6 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -444,7 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.ModulesTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = ModulesTest1/Header.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,7 +502,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.ModulesTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = ModulesTest1/Header.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -482,7 +521,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.ModulesTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = ModulesTest1/HeaderExtended.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -501,7 +540,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.ModulesTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = ModulesTest1/HeaderExtended.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

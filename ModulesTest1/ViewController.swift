@@ -8,10 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController, MyFeatureInjected {
+class ViewController: UIViewController, SimpleFeatureInjected {
 
     @IBAction private func ButtonPressed(_ target: Any) {
-        self.feature.action()
+        print(self.feature.getString())
     }
     
 }

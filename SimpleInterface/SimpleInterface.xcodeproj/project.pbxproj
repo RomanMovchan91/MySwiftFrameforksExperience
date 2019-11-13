@@ -7,42 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E42E05A523799D9C00554134 /* MyBaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E42E05A323799D9C00554134 /* MyBaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E42E06432379AD7300554134 /* MyFeatureProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E06422379AD7300554134 /* MyFeatureProtocol.swift */; };
-		E42E06462379ADA000554134 /* MyFeatureInjected.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E06452379ADA000554134 /* MyFeatureInjected.swift */; };
-		E42E07662379C63500554134 /* MyDefaultFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E064C2379AEA100554134 /* MyDefaultFeature.swift */; };
-		E42E07672379C63500554134 /* MyDefaultInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E064E2379AFC100554134 /* MyDefaultInjector.swift */; };
-		E42E076A2379C82F00554134 /* MyBaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E42E05A323799D9C00554134 /* MyBaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E42E076D2379C82F00554134 /* MyFeatureProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E06422379AD7300554134 /* MyFeatureProtocol.swift */; };
-		E42E076E2379C82F00554134 /* MyFeatureInjected.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E06452379ADA000554134 /* MyFeatureInjected.swift */; };
-		E42E07992379C90B00554134 /* MyExtendedInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E07982379C90B00554134 /* MyExtendedInjector.swift */; };
-		E42E079D2379C95B00554134 /* MyExtendedFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E079C2379C95B00554134 /* MyExtendedFeature.swift */; };
+		E42E084B237AFC5A00554134 /* SimpleInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = E42E0849237AFC5A00554134 /* SimpleInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42E0858237AFC8600554134 /* SimpleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E0857237AFC8600554134 /* SimpleProtocol.swift */; };
+		E42FD46B237C02EE00412B97 /* SimpleImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42FD46A237C02EE00412B97 /* SimpleImplementation.swift */; };
+		E42FD470237C032500412B97 /* SimpleInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = E42E0849237AFC5A00554134 /* SimpleInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42FD472237C032500412B97 /* SimpleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E0857237AFC8600554134 /* SimpleProtocol.swift */; };
+		E42FD473237C032500412B97 /* SimpleMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42FD46C237C02F500412B97 /* SimpleMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E42E05A023799D9C00554134 /* MyBaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E42E05A323799D9C00554134 /* MyBaseFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBaseFramework.h; sourceTree = "<group>"; };
-		E42E05A423799D9C00554134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E42E06422379AD7300554134 /* MyFeatureProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFeatureProtocol.swift; sourceTree = "<group>"; };
-		E42E06452379ADA000554134 /* MyFeatureInjected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFeatureInjected.swift; sourceTree = "<group>"; };
-		E42E064C2379AEA100554134 /* MyDefaultFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDefaultFeature.swift; sourceTree = "<group>"; };
-		E42E064E2379AFC100554134 /* MyDefaultInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDefaultInjector.swift; sourceTree = "<group>"; };
-		E42E07752379C82F00554134 /* MyBaseFrameworkExtended.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyBaseFrameworkExtended.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E42E07762379C82F00554134 /* MyBaseFramework copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MyBaseFramework copy-Info.plist"; path = "/Users/roman_movchan/StudyProjects/ModulesTest1/MyBaseFramework/MyBaseFramework copy-Info.plist"; sourceTree = "<absolute>"; };
-		E42E07982379C90B00554134 /* MyExtendedInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtendedInjector.swift; sourceTree = "<group>"; };
-		E42E079C2379C95B00554134 /* MyExtendedFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtendedFeature.swift; sourceTree = "<group>"; };
-		E42E07C4237AA71800554134 /* MyBaseFramework.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyBaseFramework.podspec; sourceTree = "<group>"; };
+		E42E0846237AFC5A00554134 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42E0849237AFC5A00554134 /* SimpleInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleInterface.h; sourceTree = "<group>"; };
+		E42E084A237AFC5A00554134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42E0857237AFC8600554134 /* SimpleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleProtocol.swift; sourceTree = "<group>"; };
+		E42FD46A237C02EE00412B97 /* SimpleImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleImplementation.swift; sourceTree = "<group>"; };
+		E42FD46C237C02F500412B97 /* SimpleMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMock.swift; sourceTree = "<group>"; };
+		E42FD47A237C032500412B97 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42FD47B237C032600412B97 /* SimpleInterface copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SimpleInterface copy-Info.plist"; path = "/Users/roman_movchan/StudyProjects/FrameworkTest/SimpleInterface/SimpleInterface copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E42E059D23799D9C00554134 /* Frameworks */ = {
+		E42E0843237AFC5A00554134 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E42E07702379C82F00554134 /* Frameworks */ = {
+		E42FD475237C032500412B97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -52,147 +44,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E42E059623799D9C00554134 = {
+		E42E083C237AFC5A00554134 = {
 			isa = PBXGroup;
 			children = (
-				E42E05A223799D9C00554134 /* MyBaseFramework */,
-				E42E05A123799D9C00554134 /* Products */,
-				E42E06942379B38500554134 /* Frameworks */,
-				E42E07762379C82F00554134 /* MyBaseFramework copy-Info.plist */,
-				E42E07C4237AA71800554134 /* MyBaseFramework.podspec */,
+				E42E0848237AFC5A00554134 /* SimpleInterface */,
+				E42E0847237AFC5A00554134 /* Products */,
+				E42FD47B237C032600412B97 /* SimpleInterface copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
-		E42E05A123799D9C00554134 /* Products */ = {
+		E42E0847237AFC5A00554134 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E42E05A023799D9C00554134 /* MyBaseFramework.framework */,
-				E42E07752379C82F00554134 /* MyBaseFrameworkExtended.framework */,
+				E42E0846237AFC5A00554134 /* SimpleInterface.framework */,
+				E42FD47A237C032500412B97 /* SimpleInterface.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E42E05A223799D9C00554134 /* MyBaseFramework */ = {
+		E42E0848237AFC5A00554134 /* SimpleInterface */ = {
 			isa = PBXGroup;
 			children = (
-				E42E06412379AD6000554134 /* Contracts */,
-				E42E079A2379C92200554134 /* default */,
-				E42E079B2379C93000554134 /* extended */,
-				E42E05A323799D9C00554134 /* MyBaseFramework.h */,
-				E42E05A423799D9C00554134 /* Info.plist */,
+				E42FD469237C02DC00412B97 /* Contract */,
+				E42E0849237AFC5A00554134 /* SimpleInterface.h */,
+				E42FD46A237C02EE00412B97 /* SimpleImplementation.swift */,
+				E42FD46C237C02F500412B97 /* SimpleMock.swift */,
+				E42E084A237AFC5A00554134 /* Info.plist */,
 			);
-			path = MyBaseFramework;
+			path = SimpleInterface;
 			sourceTree = "<group>";
 		};
-		E42E06412379AD6000554134 /* Contracts */ = {
+		E42FD469237C02DC00412B97 /* Contract */ = {
 			isa = PBXGroup;
 			children = (
-				E42E06422379AD7300554134 /* MyFeatureProtocol.swift */,
-				E42E06452379ADA000554134 /* MyFeatureInjected.swift */,
+				E42E0857237AFC8600554134 /* SimpleProtocol.swift */,
 			);
-			path = Contracts;
-			sourceTree = "<group>";
-		};
-		E42E06942379B38500554134 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E42E079A2379C92200554134 /* default */ = {
-			isa = PBXGroup;
-			children = (
-				E42E064C2379AEA100554134 /* MyDefaultFeature.swift */,
-				E42E064E2379AFC100554134 /* MyDefaultInjector.swift */,
-			);
-			path = default;
-			sourceTree = "<group>";
-		};
-		E42E079B2379C93000554134 /* extended */ = {
-			isa = PBXGroup;
-			children = (
-				E42E079C2379C95B00554134 /* MyExtendedFeature.swift */,
-				E42E07982379C90B00554134 /* MyExtendedInjector.swift */,
-			);
-			path = extended;
+			path = Contract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E42E059B23799D9C00554134 /* Headers */ = {
+		E42E0841237AFC5A00554134 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42E05A523799D9C00554134 /* MyBaseFramework.h in Headers */,
+				E42E084B237AFC5A00554134 /* SimpleInterface.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E42E07692379C82F00554134 /* Headers */ = {
+		E42FD46F237C032500412B97 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42E076A2379C82F00554134 /* MyBaseFramework.h in Headers */,
+				E42FD470237C032500412B97 /* SimpleInterface.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E42E059F23799D9C00554134 /* MyBaseFramework */ = {
+		E42E0845237AFC5A00554134 /* SimpleInterface */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E42E05A823799D9C00554134 /* Build configuration list for PBXNativeTarget "MyBaseFramework" */;
+			buildConfigurationList = E42E084E237AFC5A00554134 /* Build configuration list for PBXNativeTarget "SimpleInterface" */;
 			buildPhases = (
-				E42E059B23799D9C00554134 /* Headers */,
-				E42E059C23799D9C00554134 /* Sources */,
-				E42E059D23799D9C00554134 /* Frameworks */,
-				E42E059E23799D9C00554134 /* Resources */,
+				E42E0841237AFC5A00554134 /* Headers */,
+				E42E0842237AFC5A00554134 /* Sources */,
+				E42E0843237AFC5A00554134 /* Frameworks */,
+				E42E0844237AFC5A00554134 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyBaseFramework;
-			productName = MyBaseFramework;
-			productReference = E42E05A023799D9C00554134 /* MyBaseFramework.framework */;
+			name = SimpleInterface;
+			productName = SimpleInterface;
+			productReference = E42E0846237AFC5A00554134 /* SimpleInterface.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E42E07682379C82F00554134 /* MyBaseFrameworkExtended */ = {
+		E42FD46E237C032500412B97 /* SimpleInterfaceMock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E42E07722379C82F00554134 /* Build configuration list for PBXNativeTarget "MyBaseFrameworkExtended" */;
+			buildConfigurationList = E42FD477237C032500412B97 /* Build configuration list for PBXNativeTarget "SimpleInterfaceMock" */;
 			buildPhases = (
-				E42E07692379C82F00554134 /* Headers */,
-				E42E076B2379C82F00554134 /* Sources */,
-				E42E07702379C82F00554134 /* Frameworks */,
-				E42E07712379C82F00554134 /* Resources */,
+				E42FD46F237C032500412B97 /* Headers */,
+				E42FD471237C032500412B97 /* Sources */,
+				E42FD475237C032500412B97 /* Frameworks */,
+				E42FD476237C032500412B97 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyBaseFrameworkExtended;
-			productName = MyBaseFramework;
-			productReference = E42E07752379C82F00554134 /* MyBaseFrameworkExtended.framework */;
+			name = SimpleInterfaceMock;
+			productName = SimpleInterface;
+			productReference = E42FD47A237C032500412B97 /* SimpleInterface.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E42E059723799D9C00554134 /* Project object */ = {
+		E42E083D237AFC5A00554134 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Roman Movchan";
 				TargetAttributes = {
-					E42E059F23799D9C00554134 = {
+					E42E0845237AFC5A00554134 = {
 						CreatedOnToolsVersion = 11.0;
 						LastSwiftMigration = 1100;
 					};
 				};
 			};
-			buildConfigurationList = E42E059A23799D9C00554134 /* Build configuration list for PBXProject "MyBaseFramework" */;
+			buildConfigurationList = E42E0840237AFC5A00554134 /* Build configuration list for PBXProject "SimpleInterface" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -200,26 +163,26 @@
 				en,
 				Base,
 			);
-			mainGroup = E42E059623799D9C00554134;
-			productRefGroup = E42E05A123799D9C00554134 /* Products */;
+			mainGroup = E42E083C237AFC5A00554134;
+			productRefGroup = E42E0847237AFC5A00554134 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E42E059F23799D9C00554134 /* MyBaseFramework */,
-				E42E07682379C82F00554134 /* MyBaseFrameworkExtended */,
+				E42E0845237AFC5A00554134 /* SimpleInterface */,
+				E42FD46E237C032500412B97 /* SimpleInterfaceMock */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E42E059E23799D9C00554134 /* Resources */ = {
+		E42E0844237AFC5A00554134 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E42E07712379C82F00554134 /* Resources */ = {
+		E42FD476237C032500412B97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,32 +192,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E42E059C23799D9C00554134 /* Sources */ = {
+		E42E0842237AFC5A00554134 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42E07672379C63500554134 /* MyDefaultInjector.swift in Sources */,
-				E42E06432379AD7300554134 /* MyFeatureProtocol.swift in Sources */,
-				E42E06462379ADA000554134 /* MyFeatureInjected.swift in Sources */,
-				E42E07662379C63500554134 /* MyDefaultFeature.swift in Sources */,
+				E42E0858237AFC8600554134 /* SimpleProtocol.swift in Sources */,
+				E42FD46B237C02EE00412B97 /* SimpleImplementation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E42E076B2379C82F00554134 /* Sources */ = {
+		E42FD471237C032500412B97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42E07992379C90B00554134 /* MyExtendedInjector.swift in Sources */,
-				E42E076D2379C82F00554134 /* MyFeatureProtocol.swift in Sources */,
-				E42E079D2379C95B00554134 /* MyExtendedFeature.swift in Sources */,
-				E42E076E2379C82F00554134 /* MyFeatureInjected.swift in Sources */,
+				E42FD472237C032500412B97 /* SimpleProtocol.swift in Sources */,
+				E42FD473237C032500412B97 /* SimpleMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E42E05A623799D9C00554134 /* Debug */ = {
+		E42E084C237AFC5A00554134 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,6 +248,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_LOCATION = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -312,12 +272,13 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SYMROOT = build;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E42E05A723799D9C00554134 /* Release */ = {
+		E42E084D237AFC5A00554134 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -352,6 +313,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -368,118 +330,129 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SYMROOT = build;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E42E05A923799D9C00554134 /* Debug */ = {
+		E42E084F237AFC5A00554134 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(CONFIGURATION_BUILD_DIR)/$(PROJECT_NAME)/default";
 				DEFINES_MODULE = YES;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
+				DEPLOYMENT_LOCATION = NO;
 				DEVELOPMENT_TEAM = 4YMSM55897;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MyBaseFramework/Info.plist;
+				INFOPLIST_FILE = SimpleInterface/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.MyBaseFramework;
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.SimpleInterface;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				SYMROOT = "$(SYMROOT)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E42E05AA23799D9C00554134 /* Release */ = {
+		E42E0850237AFC5A00554134 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(CONFIGURATION_BUILD_DIR)/$(PROJECT_NAME)/default";
 				DEFINES_MODULE = YES;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
+				DEPLOYMENT_LOCATION = NO;
 				DEVELOPMENT_TEAM = 4YMSM55897;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MyBaseFramework/Info.plist;
+				INFOPLIST_FILE = SimpleInterface/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.MyBaseFramework;
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.SimpleInterface;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
+				SYMROOT = "$(SYMROOT)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		E42E07732379C82F00554134 /* Debug */ = {
+		E42FD478237C032500412B97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(CONFIGURATION_BUILD_DIR)/$(PROJECT_NAME)/mock";
 				DEFINES_MODULE = YES;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
 				DEVELOPMENT_TEAM = 4YMSM55897;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "MyBaseFramework copy-Info.plist";
+				INFOPLIST_FILE = "SimpleInterface copy-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.MyBaseFramework;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.SimpleInterfaceMock;
+				PRODUCT_NAME = SimpleInterface;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				SYMROOT = "$(SYMROOT)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E42E07742379C82F00554134 /* Release */ = {
+		E42FD479237C032500412B97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(CONFIGURATION_BUILD_DIR)/$(PROJECT_NAME)/mock";
 				DEFINES_MODULE = YES;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
 				DEVELOPMENT_TEAM = 4YMSM55897;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "MyBaseFramework copy-Info.plist";
+				INFOPLIST_FILE = "SimpleInterface copy-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.MyBaseFramework;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.SimpleInterfaceMock;
+				PRODUCT_NAME = SimpleInterface;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
+				SYMROOT = "$(SYMROOT)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -487,34 +460,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E42E059A23799D9C00554134 /* Build configuration list for PBXProject "MyBaseFramework" */ = {
+		E42E0840237AFC5A00554134 /* Build configuration list for PBXProject "SimpleInterface" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E42E05A623799D9C00554134 /* Debug */,
-				E42E05A723799D9C00554134 /* Release */,
+				E42E084C237AFC5A00554134 /* Debug */,
+				E42E084D237AFC5A00554134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E42E05A823799D9C00554134 /* Build configuration list for PBXNativeTarget "MyBaseFramework" */ = {
+		E42E084E237AFC5A00554134 /* Build configuration list for PBXNativeTarget "SimpleInterface" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E42E05A923799D9C00554134 /* Debug */,
-				E42E05AA23799D9C00554134 /* Release */,
+				E42E084F237AFC5A00554134 /* Debug */,
+				E42E0850237AFC5A00554134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E42E07722379C82F00554134 /* Build configuration list for PBXNativeTarget "MyBaseFrameworkExtended" */ = {
+		E42FD477237C032500412B97 /* Build configuration list for PBXNativeTarget "SimpleInterfaceMock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E42E07732379C82F00554134 /* Debug */,
-				E42E07742379C82F00554134 /* Release */,
+				E42FD478237C032500412B97 /* Debug */,
+				E42FD479237C032500412B97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E42E059723799D9C00554134 /* Project object */;
+	rootObject = E42E083D237AFC5A00554134 /* Project object */;
 }
