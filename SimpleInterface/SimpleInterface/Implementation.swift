@@ -8,15 +8,34 @@
 
 import Foundation
 
-extension BrandFeatures.Feature {
+extension BrandFeatures.Foo {
+    
     public static var isSupported: Bool { return true }
+    
     public static func action() {
-        print("Implementation of BrandFeatures.Feature action")
+        print("Implemented BrandFeatures.Foo action")
+    }
+    public func action() {
+        Self.action()
     }
 }
 
-extension BrandFeatures.Feature.Settings {
-    public static func settingsAction() {
-        print("Implementation. isSupported: \(BrandFeatures.Feature.isSupported)")
+extension BrandFeatures.Foo.Settings {
+    public static func action() {
+        print("Implementated Foo action. isSupported: \(BrandFeatures.Foo.isSupported)")
+    }
+    public func action() {
+        Self.action()
+    }
+}
+extension BrandFeatures.Bar {
+    
+    public static var isSupported: Bool { return true }
+    
+    public static func action() {
+        print("Imoplementated Bar action")
+    }
+    public func action() {
+        Self.action()
     }
 }

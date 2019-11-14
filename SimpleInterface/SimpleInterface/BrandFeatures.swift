@@ -8,13 +8,19 @@
 
 import Foundation
 
-public struct BrandFeatures: BrandFeaturesProtocol {
+public struct BrandFeatures: BrandFeaturesStaticProtocol {
     public static func action() {
         print("BrandFeatures action")
-        Feature.action()
+        Self.Foo.action()
+        Self.Bar.action()
+    }
+    public func action() {
+        Self.action()
     }
     
-    public class Feature: BrandFeaturesItemProtocol {
-        public class Settings: BrandSettingsProtocol { }
+    public class Foo: BrandFeaturesItemStaticProtocol {
+        public class Settings: BrandSettingsStaticProtocol { }
     }
+    
+    public class Bar: BrandFeaturesItemStaticProtocol { }
 }

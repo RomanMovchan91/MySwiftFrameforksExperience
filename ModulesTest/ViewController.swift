@@ -10,11 +10,11 @@ import UIKit
 
 import SimpleInterface
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, FooInjected {
 
     @IBAction private func ButtonPressed(_ target: Any) {
-        BrandFeatures.action()
-        BrandFeatures.Feature.Settings.settingsAction()
+        self.foo.action()
+        BrandFeatures.Foo.action()
     }
     
 }

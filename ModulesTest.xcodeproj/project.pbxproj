@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E42D270B237D87F600BCC530 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; };
+		E42D270C237D87F600BCC530 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E42D270E237D87FE00BCC530 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; };
+		E42D270F237D87FE00BCC530 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E42E04FD2379870100554134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E04FC2379870100554134 /* AppDelegate.swift */; };
 		E42E04FF2379870100554134 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E04FE2379870100554134 /* SceneDelegate.swift */; };
 		E42E05012379870100554134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E05002379870100554134 /* ViewController.swift */; };
@@ -19,13 +23,23 @@
 		E42E081A237AF15400554134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E05072379870200554134 /* LaunchScreen.storyboard */; };
 		E42E081B237AF15400554134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42E05052379870200554134 /* Assets.xcassets */; };
 		E42E081C237AF15400554134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E05022379870100554134 /* Main.storyboard */; };
-		E4E7E219237C3C600012429E /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; };
-		E4E7E21A237C3C600012429E /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E4E7E21C237C3C680012429E /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; };
-		E4E7E21D237C3C680012429E /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E42D2707237D87DE00BCC530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E42FD46E237C032500412B97;
+			remoteInfo = SimpleInterfaceImplemented;
+		};
+		E42D2709237D87E400BCC530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E42E0845237AFC5A00554134;
+			remoteInfo = SimpleInterfaceMocked;
+		};
 		E42E0855237AFC5B00554134 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
@@ -40,41 +54,27 @@
 			remoteGlobalIDString = E42FD47A237C032500412B97;
 			remoteInfo = SimpleInterfaceMock;
 		};
-		E4E7E221237C42140012429E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E42E0845237AFC5A00554134;
-			remoteInfo = SimpleInterface;
-		};
-		E4E7E223237C421E0012429E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E42FD46E237C032500412B97;
-			remoteInfo = SimpleInterfaceMock;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E4E7E21B237C3C600012429E /* Embed Frameworks */ = {
+		E42D270D237D87F600BCC530 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E4E7E21A237C3C600012429E /* SimpleInterface.framework in Embed Frameworks */,
+				E42D270C237D87F600BCC530 /* SimpleInterface.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4E7E21E237C3C680012429E /* Embed Frameworks */ = {
+		E42D2710237D87FE00BCC530 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E4E7E21D237C3C680012429E /* SimpleInterface.framework in Embed Frameworks */,
+				E42D270F237D87FE00BCC530 /* SimpleInterface.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,7 +82,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E42E04F92379870100554134 /* ModulesTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModulesTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42D2705237D86C200BCC530 /* Implemented-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Implemented-Info.plist"; sourceTree = "<group>"; };
+		E42E04F92379870100554134 /* ModulesTestImplementated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModulesTestImplementated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42E04FC2379870100554134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E42E04FE2379870100554134 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E42E05002379870100554134 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,8 +91,7 @@
 		E42E05052379870200554134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E42E05082379870200554134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E42E050A2379870200554134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E42E0820237AF15400554134 /* ModulesTest1Mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModulesTest1Mock.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E42E0821237AF15400554134 /* ModulesTest1 copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ModulesTest1 copy2-Info.plist"; path = "/Users/roman_movchan/StudyProjects/ModulesTest1/ModulesTest1 copy2-Info.plist"; sourceTree = "<absolute>"; };
+		E42E0820237AF15400554134 /* ModulesTestMocked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModulesTestMocked.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleInterface.xcodeproj; path = SimpleInterface/SimpleInterface.xcodeproj; sourceTree = "<group>"; };
 		E4E7E1DC237C33C00012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/default/SimpleInterface.framework"; sourceTree = "<group>"; };
 		E4E7E1E0237C33EB0012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/mock/SimpleInterface.framework"; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4E7E219237C3C600012429E /* SimpleInterface.framework in Frameworks */,
+				E42D270E237D87FE00BCC530 /* SimpleInterface.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4E7E21C237C3C680012429E /* SimpleInterface.framework in Frameworks */,
+				E42D270B237D87F600BCC530 /* SimpleInterface.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,10 +120,9 @@
 		E42E04F02379870100554134 = {
 			isa = PBXGroup;
 			children = (
-				E42E04FB2379870100554134 /* ModulesTest1 */,
+				E42E04FB2379870100554134 /* ModulesTest */,
 				E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */,
 				E42E04FA2379870100554134 /* Products */,
-				E42E0821237AF15400554134 /* ModulesTest1 copy2-Info.plist */,
 				E42E0831237AF8C300554134 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -131,13 +130,13 @@
 		E42E04FA2379870100554134 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E42E04F92379870100554134 /* ModulesTest1.app */,
-				E42E0820237AF15400554134 /* ModulesTest1Mock.app */,
+				E42E04F92379870100554134 /* ModulesTestImplementated.app */,
+				E42E0820237AF15400554134 /* ModulesTestMocked.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E42E04FB2379870100554134 /* ModulesTest1 */ = {
+		E42E04FB2379870100554134 /* ModulesTest */ = {
 			isa = PBXGroup;
 			children = (
 				E42E04FC2379870100554134 /* AppDelegate.swift */,
@@ -147,8 +146,9 @@
 				E42E05052379870200554134 /* Assets.xcassets */,
 				E42E05072379870200554134 /* LaunchScreen.storyboard */,
 				E42E050A2379870200554134 /* Info.plist */,
+				E42D2705237D86C200BCC530 /* Implemented-Info.plist */,
 			);
-			path = ModulesTest1;
+			path = ModulesTest;
 			sourceTree = "<group>";
 		};
 		E42E0831237AF8C300554134 /* Frameworks */ = {
@@ -172,42 +172,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E42E04F82379870100554134 /* ModulesTest1 */ = {
+		E42E04F82379870100554134 /* ModulesTestImplementated */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E42E050D2379870200554134 /* Build configuration list for PBXNativeTarget "ModulesTest1" */;
+			buildConfigurationList = E42E050D2379870200554134 /* Build configuration list for PBXNativeTarget "ModulesTestImplementated" */;
 			buildPhases = (
 				E42E04F52379870100554134 /* Sources */,
 				E42E04F62379870100554134 /* Frameworks */,
 				E42E04F72379870100554134 /* Resources */,
-				E4E7E21B237C3C600012429E /* Embed Frameworks */,
+				E42D2710237D87FE00BCC530 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E4E7E222237C42140012429E /* PBXTargetDependency */,
+				E42D2708237D87DE00BCC530 /* PBXTargetDependency */,
 			);
-			name = ModulesTest1;
+			name = ModulesTestImplementated;
 			productName = ModulesTest1;
-			productReference = E42E04F92379870100554134 /* ModulesTest1.app */;
+			productReference = E42E04F92379870100554134 /* ModulesTestImplementated.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E42E0813237AF15400554134 /* ModulesTest1Mock */ = {
+		E42E0813237AF15400554134 /* ModulesTestMocked */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E42E081D237AF15400554134 /* Build configuration list for PBXNativeTarget "ModulesTest1Mock" */;
+			buildConfigurationList = E42E081D237AF15400554134 /* Build configuration list for PBXNativeTarget "ModulesTestMocked" */;
 			buildPhases = (
 				E42E0814237AF15400554134 /* Sources */,
 				E42E0818237AF15400554134 /* Frameworks */,
 				E42E0819237AF15400554134 /* Resources */,
-				E4E7E21E237C3C680012429E /* Embed Frameworks */,
+				E42D270D237D87F600BCC530 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E4E7E224237C421E0012429E /* PBXTargetDependency */,
+				E42D270A237D87E400BCC530 /* PBXTargetDependency */,
 			);
-			name = ModulesTest1Mock;
+			name = ModulesTestMocked;
 			productName = ModulesTest1;
-			productReference = E42E0820237AF15400554134 /* ModulesTest1Mock.app */;
+			productReference = E42E0820237AF15400554134 /* ModulesTestMocked.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E42E04F42379870100554134 /* Build configuration list for PBXProject "ModulesTest1" */;
+			buildConfigurationList = E42E04F42379870100554134 /* Build configuration list for PBXProject "ModulesTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,8 +244,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				E42E0813237AF15400554134 /* ModulesTest1Mock */,
-				E42E04F82379870100554134 /* ModulesTest1 */,
+				E42E0813237AF15400554134 /* ModulesTestMocked */,
+				E42E04F82379870100554134 /* ModulesTestImplementated */,
 			);
 		};
 /* End PBXProject section */
@@ -314,15 +314,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E4E7E222237C42140012429E /* PBXTargetDependency */ = {
+		E42D2708237D87DE00BCC530 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SimpleInterface;
-			targetProxy = E4E7E221237C42140012429E /* PBXContainerItemProxy */;
+			name = SimpleInterfaceImplemented;
+			targetProxy = E42D2707237D87DE00BCC530 /* PBXContainerItemProxy */;
 		};
-		E4E7E224237C421E0012429E /* PBXTargetDependency */ = {
+		E42D270A237D87E400BCC530 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SimpleInterfaceMock;
-			targetProxy = E4E7E223237C421E0012429E /* PBXContainerItemProxy */;
+			name = SimpleInterfaceMocked;
+			targetProxy = E42D2709237D87E400BCC530 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -470,12 +470,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4YMSM55897;
-				INFOPLIST_FILE = ModulesTest1/Info.plist;
+				INFOPLIST_FILE = "ModulesTest/Implemented-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.ModulesTest1;
+				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.ModulesTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
@@ -489,12 +489,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4YMSM55897;
-				INFOPLIST_FILE = ModulesTest1/Info.plist;
+				INFOPLIST_FILE = "ModulesTest/Implemented-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.ModulesTest1;
+				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.ModulesTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
@@ -508,12 +508,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4YMSM55897;
-				INFOPLIST_FILE = "ModulesTest1 copy2-Info.plist";
+				INFOPLIST_FILE = ModulesTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.ModulesTest1;
+				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.ModulesTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
@@ -527,12 +527,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4YMSM55897;
-				INFOPLIST_FILE = "ModulesTest1 copy2-Info.plist";
+				INFOPLIST_FILE = ModulesTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.ModulesTest1;
+				PRODUCT_BUNDLE_IDENTIFIER = RomanMovchan.ModulesTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
@@ -543,7 +543,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E42E04F42379870100554134 /* Build configuration list for PBXProject "ModulesTest1" */ = {
+		E42E04F42379870100554134 /* Build configuration list for PBXProject "ModulesTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E42E050B2379870200554134 /* Debug */,
@@ -552,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E42E050D2379870200554134 /* Build configuration list for PBXNativeTarget "ModulesTest1" */ = {
+		E42E050D2379870200554134 /* Build configuration list for PBXNativeTarget "ModulesTestImplementated" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E42E050E2379870200554134 /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E42E081D237AF15400554134 /* Build configuration list for PBXNativeTarget "ModulesTest1Mock" */ = {
+		E42E081D237AF15400554134 /* Build configuration list for PBXNativeTarget "ModulesTestMocked" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E42E081E237AF15400554134 /* Debug */,
