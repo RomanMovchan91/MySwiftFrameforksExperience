@@ -7,21 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E42D26DE237C5ADA00BCC530 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D26DD237C5ADA00BCC530 /* Protocols.swift */; };
+		E42D26DF237C5ADC00BCC530 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D26DD237C5ADA00BCC530 /* Protocols.swift */; };
+		E42D26F6237D539600BCC530 /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D26E0237C5B3000BCC530 /* Implementation.swift */; };
+		E42D26F9237D58F400BCC530 /* Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D26DB237C5AB200BCC530 /* Default.swift */; };
+		E42D26FB237D591100BCC530 /* BrandFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D26FA237D591100BCC530 /* BrandFeatures.swift */; };
+		E42D26FC237D591100BCC530 /* BrandFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D26FA237D591100BCC530 /* BrandFeatures.swift */; };
 		E42E084B237AFC5A00554134 /* SimpleInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = E42E0849237AFC5A00554134 /* SimpleInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E42E0858237AFC8600554134 /* SimpleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E0857237AFC8600554134 /* SimpleProtocol.swift */; };
-		E42FD46B237C02EE00412B97 /* SimpleImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42FD46A237C02EE00412B97 /* SimpleImplementation.swift */; };
 		E42FD470237C032500412B97 /* SimpleInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = E42E0849237AFC5A00554134 /* SimpleInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E42FD472237C032500412B97 /* SimpleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E0857237AFC8600554134 /* SimpleProtocol.swift */; };
-		E42FD473237C032500412B97 /* SimpleMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42FD46C237C02F500412B97 /* SimpleMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E42D26DB237C5AB200BCC530 /* Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Default.swift; sourceTree = "<group>"; };
+		E42D26DD237C5ADA00BCC530 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		E42D26E0237C5B3000BCC530 /* Implementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implementation.swift; sourceTree = "<group>"; };
+		E42D26FA237D591100BCC530 /* BrandFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandFeatures.swift; sourceTree = "<group>"; };
 		E42E0846237AFC5A00554134 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42E0849237AFC5A00554134 /* SimpleInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleInterface.h; sourceTree = "<group>"; };
 		E42E084A237AFC5A00554134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E42E0857237AFC8600554134 /* SimpleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleProtocol.swift; sourceTree = "<group>"; };
-		E42FD46A237C02EE00412B97 /* SimpleImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleImplementation.swift; sourceTree = "<group>"; };
-		E42FD46C237C02F500412B97 /* SimpleMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMock.swift; sourceTree = "<group>"; };
 		E42FD47A237C032500412B97 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42FD47B237C032600412B97 /* SimpleInterface copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SimpleInterface copy-Info.plist"; path = "/Users/roman_movchan/StudyProjects/FrameworkTest/SimpleInterface/SimpleInterface copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -65,21 +68,14 @@
 		E42E0848237AFC5A00554134 /* SimpleInterface */ = {
 			isa = PBXGroup;
 			children = (
-				E42FD469237C02DC00412B97 /* Contract */,
 				E42E0849237AFC5A00554134 /* SimpleInterface.h */,
-				E42FD46A237C02EE00412B97 /* SimpleImplementation.swift */,
-				E42FD46C237C02F500412B97 /* SimpleMock.swift */,
 				E42E084A237AFC5A00554134 /* Info.plist */,
+				E42D26DD237C5ADA00BCC530 /* Protocols.swift */,
+				E42D26FA237D591100BCC530 /* BrandFeatures.swift */,
+				E42D26DB237C5AB200BCC530 /* Default.swift */,
+				E42D26E0237C5B3000BCC530 /* Implementation.swift */,
 			);
 			path = SimpleInterface;
-			sourceTree = "<group>";
-		};
-		E42FD469237C02DC00412B97 /* Contract */ = {
-			isa = PBXGroup;
-			children = (
-				E42E0857237AFC8600554134 /* SimpleProtocol.swift */,
-			);
-			path = Contract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +192,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42E0858237AFC8600554134 /* SimpleProtocol.swift in Sources */,
-				E42FD46B237C02EE00412B97 /* SimpleImplementation.swift in Sources */,
+				E42D26DE237C5ADA00BCC530 /* Protocols.swift in Sources */,
+				E42D26F9237D58F400BCC530 /* Default.swift in Sources */,
+				E42D26FB237D591100BCC530 /* BrandFeatures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42FD472237C032500412B97 /* SimpleProtocol.swift in Sources */,
-				E42FD473237C032500412B97 /* SimpleMock.swift in Sources */,
+				E42D26DF237C5ADC00BCC530 /* Protocols.swift in Sources */,
+				E42D26F6237D539600BCC530 /* Implementation.swift in Sources */,
+				E42D26FC237D591100BCC530 /* BrandFeatures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

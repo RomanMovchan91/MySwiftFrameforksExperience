@@ -8,10 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController, SimpleFeatureInjected {
+import SimpleInterface
+
+class ViewController: UIViewController {
 
     @IBAction private func ButtonPressed(_ target: Any) {
-        print(self.feature.getString())
+        BrandFeatures.action()
+        BrandFeatures.Feature.Settings.settingsAction()
     }
     
 }
