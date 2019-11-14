@@ -1,19 +1,16 @@
 //
-//  SimpleFeatureInjected.swift
-//  ModulesTest1
+//  Injector.swift
+//  SimpleInterface
 //
 //  Created by Roman Movchan on 11/13/19.
 //  Copyright © 2019 Roman Movchan. All rights reserved.
 //
-
-import SimpleInterface
-
-protocol SimpleFeatureInjected {
+public protocol SimpleFeatureInjected {
     var feature: SimpleProtocol { get }
 }
 
 extension SimpleFeatureInjected {
-    var feature: SimpleProtocol {
+    public var feature: SimpleProtocol {
         return SimpleImplementation()
     }
 }

@@ -19,8 +19,6 @@
 		E42E081A237AF15400554134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E05072379870200554134 /* LaunchScreen.storyboard */; };
 		E42E081B237AF15400554134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42E05052379870200554134 /* Assets.xcassets */; };
 		E42E081C237AF15400554134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E05022379870100554134 /* Main.storyboard */; };
-		E4E7E217237C3C290012429E /* SimpleFeatureInjected.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42FD451237BFC2D00412B97 /* SimpleFeatureInjected.swift */; };
-		E4E7E218237C3C290012429E /* SimpleFeatureInjected.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42FD451237BFC2D00412B97 /* SimpleFeatureInjected.swift */; };
 		E4E7E219237C3C600012429E /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; };
 		E4E7E21A237C3C600012429E /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E4E7E21C237C3C680012429E /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; };
@@ -95,7 +93,6 @@
 		E42E0820237AF15400554134 /* ModulesTest1 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ModulesTest1 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42E0821237AF15400554134 /* ModulesTest1 copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ModulesTest1 copy2-Info.plist"; path = "/Users/roman_movchan/StudyProjects/ModulesTest1/ModulesTest1 copy2-Info.plist"; sourceTree = "<absolute>"; };
 		E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleInterface.xcodeproj; path = SimpleInterface/SimpleInterface.xcodeproj; sourceTree = "<group>"; };
-		E42FD451237BFC2D00412B97 /* SimpleFeatureInjected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFeatureInjected.swift; sourceTree = "<group>"; };
 		E4E7E1DC237C33C00012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/default/SimpleInterface.framework"; sourceTree = "<group>"; };
 		E4E7E1E0237C33EB0012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/mock/SimpleInterface.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,10 +120,10 @@
 		E42E04F02379870100554134 = {
 			isa = PBXGroup;
 			children = (
-				E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */,
 				E42E04FB2379870100554134 /* ModulesTest1 */,
 				E42E04FA2379870100554134 /* Products */,
 				E42E0821237AF15400554134 /* ModulesTest1 copy2-Info.plist */,
+				E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */,
 				E42E0831237AF8C300554134 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -143,7 +140,6 @@
 		E42E04FB2379870100554134 /* ModulesTest1 */ = {
 			isa = PBXGroup;
 			children = (
-				E42FD451237BFC2D00412B97 /* SimpleFeatureInjected.swift */,
 				E42E04FC2379870100554134 /* AppDelegate.swift */,
 				E42E04FE2379870100554134 /* SceneDelegate.swift */,
 				E42E05002379870100554134 /* ViewController.swift */,
@@ -301,7 +297,6 @@
 			files = (
 				E42E05012379870100554134 /* ViewController.swift in Sources */,
 				E42E04FD2379870100554134 /* AppDelegate.swift in Sources */,
-				E4E7E217237C3C290012429E /* SimpleFeatureInjected.swift in Sources */,
 				E42E04FF2379870100554134 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,7 +307,6 @@
 			files = (
 				E42E0815237AF15400554134 /* ViewController.swift in Sources */,
 				E42E0816237AF15400554134 /* AppDelegate.swift in Sources */,
-				E4E7E218237C3C290012429E /* SimpleFeatureInjected.swift in Sources */,
 				E42E0817237AF15400554134 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

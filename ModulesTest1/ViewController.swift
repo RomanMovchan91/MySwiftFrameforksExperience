@@ -8,6 +8,8 @@
 
 import UIKit
 
+import SimpleInterface
+
 class ViewController: UIViewController, SimpleFeatureInjected {
 
     @IBAction private func ButtonPressed(_ target: Any) {

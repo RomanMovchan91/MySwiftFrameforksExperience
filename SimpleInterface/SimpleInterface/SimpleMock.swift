@@ -6,10 +6,7 @@
 //  Copyright © 2019 Roman Movchan. All rights reserved.
 //
 
-public class SimpleImplementation: SimpleProtocol {
-    
-    public init() {}
-    
+class SimpleImplementation: SimpleProtocol {
     public func getString() -> String {
         return "Mock"
     }

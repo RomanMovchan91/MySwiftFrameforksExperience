@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E42D26EA237C663B00BCC530 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D26E9237C663B00BCC530 /* Injector.swift */; };
+		E42D26EB237C663B00BCC530 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D26E9237C663B00BCC530 /* Injector.swift */; };
 		E42E084B237AFC5A00554134 /* SimpleInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = E42E0849237AFC5A00554134 /* SimpleInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E42E0858237AFC8600554134 /* SimpleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E0857237AFC8600554134 /* SimpleProtocol.swift */; };
 		E42FD46B237C02EE00412B97 /* SimpleImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42FD46A237C02EE00412B97 /* SimpleImplementation.swift */; };
@@ -16,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E42D26E9237C663B00BCC530 /* Injector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
 		E42E0846237AFC5A00554134 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42E0849237AFC5A00554134 /* SimpleInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleInterface.h; sourceTree = "<group>"; };
 		E42E084A237AFC5A00554134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 				E42E0849237AFC5A00554134 /* SimpleInterface.h */,
 				E42FD46A237C02EE00412B97 /* SimpleImplementation.swift */,
 				E42FD46C237C02F500412B97 /* SimpleMock.swift */,
+				E42D26E9237C663B00BCC530 /* Injector.swift */,
 				E42E084A237AFC5A00554134 /* Info.plist */,
 			);
 			path = SimpleInterface;
@@ -198,6 +202,7 @@
 			files = (
 				E42E0858237AFC8600554134 /* SimpleProtocol.swift in Sources */,
 				E42FD46B237C02EE00412B97 /* SimpleImplementation.swift in Sources */,
+				E42D26EA237C663B00BCC530 /* Injector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +212,7 @@
 			files = (
 				E42FD472237C032500412B97 /* SimpleProtocol.swift in Sources */,
 				E42FD473237C032500412B97 /* SimpleMock.swift in Sources */,
+				E42D26EB237C663B00BCC530 /* Injector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
