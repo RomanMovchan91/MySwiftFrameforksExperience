@@ -23,10 +23,10 @@
 		E42E081C237AF15400554134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E05022379870100554134 /* Main.storyboard */; };
 		E42F1739237EC80400C18261 /* Pods_ModulesTestMocked.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA10218995065F13E078980 /* Pods_ModulesTestMocked.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E42F1749237ECD5900C18261 /* Pods_ModulesTestImplementated.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 64555E4B2E30E1A3B0575AFF /* Pods_ModulesTestImplementated.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E42F176C237ED8EA00C18261 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42F1769237ED8B100C18261 /* SimpleInterface.framework */; };
-		E42F176D237ED8EA00C18261 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42F1769237ED8B100C18261 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E42F176E237ED8F200C18261 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42F176B237ED8B100C18261 /* SimpleInterface.framework */; };
-		E42F176F237ED8F200C18261 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42F176B237ED8B100C18261 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E42F17F8237EFB1000C18261 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42F1769237ED8B100C18261 /* SimpleInterface.framework */; };
+		E42F17F9237EFB1000C18261 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42F1769237ED8B100C18261 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E42F17FA237EFB1500C18261 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42F176B237ED8B100C18261 /* SimpleInterface.framework */; };
+		E42F17FB237EFB1500C18261 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42F176B237ED8B100C18261 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,20 @@
 			remoteGlobalIDString = E42FD47A237C032500412B97;
 			remoteInfo = SimpleInterfaceImplemented;
 		};
+		E42F17FC237EFB1F00C18261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E42E0845237AFC5A00554134;
+			remoteInfo = SimpleInterfaceMocked;
+		};
+		E42F17FE237EFB2300C18261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E42FD46E237C032500412B97;
+			remoteInfo = SimpleInterfaceImplemented;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,7 +67,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E42F176D237ED8EA00C18261 /* SimpleInterface.framework in Embed Frameworks */,
+				E42F17F9237EFB1000C18261 /* SimpleInterface.framework in Embed Frameworks */,
 				E42F1739237EC80400C18261 /* Pods_ModulesTestMocked.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -65,7 +79,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E42F176F237ED8F200C18261 /* SimpleInterface.framework in Embed Frameworks */,
+				E42F17FB237EFB1500C18261 /* SimpleInterface.framework in Embed Frameworks */,
 				E42F1749237ECD5900C18261 /* Pods_ModulesTestImplementated.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -113,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42F176E237ED8F200C18261 /* SimpleInterface.framework in Frameworks */,
+				E42F17FA237EFB1500C18261 /* SimpleInterface.framework in Frameworks */,
 				898A0896FACDE9E180EF85BC /* Pods_ModulesTestImplementated.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,7 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42F176C237ED8EA00C18261 /* SimpleInterface.framework in Frameworks */,
+				E42F17F8237EFB1000C18261 /* SimpleInterface.framework in Frameworks */,
 				412A76D4EFC4A754A2F914A2 /* Pods_ModulesTestMocked.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,6 +248,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E42F17FF237EFB2300C18261 /* PBXTargetDependency */,
 			);
 			name = ModulesTestImplementated;
 			productName = ModulesTest1;
@@ -254,6 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E42F17FD237EFB1F00C18261 /* PBXTargetDependency */,
 			);
 			name = ModulesTestMocked;
 			productName = ModulesTest1;
@@ -444,6 +460,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E42F17FD237EFB1F00C18261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleInterfaceMocked;
+			targetProxy = E42F17FC237EFB1F00C18261 /* PBXContainerItemProxy */;
+		};
+		E42F17FF237EFB2300C18261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleInterfaceImplemented;
+			targetProxy = E42F17FE237EFB2300C18261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		E42E05022379870100554134 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -500,7 +529,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/SimpleInterface/**\"";
+				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -563,7 +592,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/SimpleInterface/**\"";
+				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

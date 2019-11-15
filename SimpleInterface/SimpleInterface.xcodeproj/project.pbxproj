@@ -16,6 +16,10 @@
 		E42D2713237D8E4400BCC530 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D2712237D8E4400BCC530 /* Injector.swift */; };
 		E42D2714237D8E4400BCC530 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D2712237D8E4400BCC530 /* Injector.swift */; };
 		E42E084B237AFC5A00554134 /* SimpleInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = E42E0849237AFC5A00554134 /* SimpleInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42F17F2237EFAFC00C18261 /* Protocols.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42F178A237EE34B00C18261 /* Protocols.framework */; };
+		E42F17F3237EFAFC00C18261 /* Protocols.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42F178A237EE34B00C18261 /* Protocols.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E42F17F5237EFAFF00C18261 /* Protocols.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42F178A237EE34B00C18261 /* Protocols.framework */; };
+		E42F17F6237EFAFF00C18261 /* Protocols.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42F178A237EE34B00C18261 /* Protocols.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E42FD470237C032500412B97 /* SimpleInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = E42E0849237AFC5A00554134 /* SimpleInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,7 +31,46 @@
 			remoteGlobalIDString = E4E13939237DAE2800A8DD7D;
 			remoteInfo = Protocols;
 		};
+		E42F17EB237EFA1E00C18261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42F1785237EE34B00C18261 /* Protocols.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E13938237DAE2800A8DD7D;
+			remoteInfo = Protocols;
+		};
+		E42F17EE237EFA2200C18261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42F1785237EE34B00C18261 /* Protocols.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E13938237DAE2800A8DD7D;
+			remoteInfo = Protocols;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E42F17F4237EFAFC00C18261 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E42F17F3237EFAFC00C18261 /* Protocols.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F17F7237EFAFF00C18261 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E42F17F6237EFAFF00C18261 /* Protocols.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1138A84CEC3C7FBCE289D44A /* Pods_SimpleInterface_SimpleInterfaceMocked.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleInterface_SimpleInterfaceMocked.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42F17F2237EFAFC00C18261 /* Protocols.framework in Frameworks */,
 				A8C6A8584BBE8759E5CB4A65 /* Pods_SimpleInterface_SimpleInterfaceMocked.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42F17F5237EFAFF00C18261 /* Protocols.framework in Frameworks */,
 				5F3164878BBCA41EA161BEFA /* Pods_SimpleInterface_SimpleInterfaceImplemented.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,10 +223,12 @@
 				E42E0842237AFC5A00554134 /* Sources */,
 				E42E0843237AFC5A00554134 /* Frameworks */,
 				E42E0844237AFC5A00554134 /* Resources */,
+				E42F17F4237EFAFC00C18261 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E42F17EC237EFA1E00C18261 /* PBXTargetDependency */,
 			);
 			name = SimpleInterfaceMocked;
 			productName = SimpleInterface;
@@ -197,10 +244,12 @@
 				E42FD471237C032500412B97 /* Sources */,
 				E42FD475237C032500412B97 /* Frameworks */,
 				E42FD476237C032500412B97 /* Resources */,
+				E42F17F7237EFAFF00C18261 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E42F17EF237EFA2200C18261 /* PBXTargetDependency */,
 			);
 			name = SimpleInterfaceImplemented;
 			productName = SimpleInterface;
@@ -343,6 +392,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E42F17EC237EFA1E00C18261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Protocols;
+			targetProxy = E42F17EB237EFA1E00C18261 /* PBXContainerItemProxy */;
+		};
+		E42F17EF237EFA2200C18261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Protocols;
+			targetProxy = E42F17EE237EFA2200C18261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E42E084C237AFC5A00554134 /* Debug */ = {
