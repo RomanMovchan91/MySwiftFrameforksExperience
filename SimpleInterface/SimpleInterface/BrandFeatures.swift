@@ -7,20 +7,17 @@
 //
 
 import Foundation
+import Protocols
 
 public struct BrandFeatures: BrandFeaturesStaticProtocol {
+    
     public static func action() {
         print("BrandFeatures action")
         Self.Foo.action()
-        Self.Bar.action()
-    }
-    public func action() {
-        Self.action()
     }
     
-    public class Foo: BrandFeaturesItemStaticProtocol {
-        public class Settings: BrandSettingsStaticProtocol { }
-    }
+    public func action() { Self.action() }
     
-    public class Bar: BrandFeaturesItemStaticProtocol { }
+    public class Foo: BrandFeaturesItemStaticProtocol { }
+    
 }

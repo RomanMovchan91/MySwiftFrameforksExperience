@@ -6,6 +6,8 @@
 //  Copyright © 2019 Roman Movchan. All rights reserved.
 //
 
+import Protocols
+
 public protocol FooInjected {
     var foo: BrandFeaturesItemProtocol { get }
 }

@@ -9,12 +9,15 @@
 import UIKit
 
 import SimpleInterface
+//import RxSwift
 
 class ViewController: UIViewController, FooInjected {
 
     @IBAction private func ButtonPressed(_ target: Any) {
-        self.foo.action()
+//        self.foo.action()
         BrandFeatures.Foo.action()
+        print("Foo supported: \(BrandFeatures.Foo.isSupported)")
+        BrandFeatures.Foo.observable.subscribe(onNext: { print($0) })
     }
     
 }

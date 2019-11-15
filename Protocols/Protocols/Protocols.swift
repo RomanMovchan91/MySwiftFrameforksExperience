@@ -1,11 +1,12 @@
 //
 //  Protocols.swift
-//  SimpleInterface
+//  Protocols
 //
-//  Created by Roman Movchan on 11/13/19.
-//  Copyright © 2019 Roman Movchan. All rights reserved.
+//  Created by Roman Movchan on 11/14/19.
+//  Copyright © 2019 Roman Movchan (personal). All rights reserved.
 //
 
+import RxSwift
 
 public protocol BrandFeaturesProtocol {
     func action()
@@ -16,15 +17,8 @@ public protocol BrandFeaturesStaticProtocol: BrandFeaturesProtocol {
 
 public protocol BrandFeaturesItemProtocol: class, BrandFeaturesProtocol {
     static var isSupported: Bool { get }
+    static var observable: Observable<Int> { get }
 }
 public protocol BrandFeaturesItemStaticProtocol: BrandFeaturesItemProtocol, BrandFeaturesStaticProtocol { }
-
-public protocol BrandSettingsProtocol: class {
-    func action()
-}
-public protocol BrandSettingsStaticProtocol: BrandSettingsProtocol {
-    static func action()
-}
-
 
 

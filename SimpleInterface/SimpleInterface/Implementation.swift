@@ -7,35 +7,16 @@
 //
 
 import Foundation
+import RxSwift
 
 extension BrandFeatures.Foo {
     
     public static var isSupported: Bool { return true }
-    
-    public static func action() {
-        print("Implemented BrandFeatures.Foo action")
-    }
-    public func action() {
-        Self.action()
-    }
-}
 
-extension BrandFeatures.Foo.Settings {
-    public static func action() {
-        print("Implementated Foo action. isSupported: \(BrandFeatures.Foo.isSupported)")
-    }
-    public func action() {
-        Self.action()
-    }
-}
-extension BrandFeatures.Bar {
+    public static var observable: Observable<Int> { return Observable<Int>.just(42) }
+
+    public static func action() { print("Implemented BrandFeatures.Foo action") }
     
-    public static var isSupported: Bool { return true }
+    public func action() { Self.action() }
     
-    public static func action() {
-        print("Imoplementated Bar action")
-    }
-    public func action() {
-        Self.action()
-    }
 }

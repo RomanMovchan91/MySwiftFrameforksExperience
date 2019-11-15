@@ -3,14 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E42D270B237D87F600BCC530 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; };
-		E42D270C237D87F600BCC530 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E42D270E237D87FE00BCC530 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; };
-		E42D270F237D87FE00BCC530 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48E8BA516161561208904EFC /* Pods_ModulesTestMocked.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA10218995065F13E078980 /* Pods_ModulesTestMocked.framework */; };
+		DA44367778E1148EC0F62033 /* Pods_ModulesTestImplementated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64555E4B2E30E1A3B0575AFF /* Pods_ModulesTestImplementated.framework */; };
 		E42E04FD2379870100554134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E04FC2379870100554134 /* AppDelegate.swift */; };
 		E42E04FF2379870100554134 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E04FE2379870100554134 /* SceneDelegate.swift */; };
 		E42E05012379870100554134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E05002379870100554134 /* ViewController.swift */; };
@@ -23,29 +21,34 @@
 		E42E081A237AF15400554134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E05072379870200554134 /* LaunchScreen.storyboard */; };
 		E42E081B237AF15400554134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42E05052379870200554134 /* Assets.xcassets */; };
 		E42E081C237AF15400554134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E05022379870100554134 /* Main.storyboard */; };
+		E42F16D3237EA1E500C18261 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; };
+		E42F16D4237EA1E500C18261 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E42F16D6237EA1ED00C18261 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; };
+		E42F16D7237EA1ED00C18261 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E42F1739237EC80400C18261 /* Pods_ModulesTestMocked.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA10218995065F13E078980 /* Pods_ModulesTestMocked.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E42D2707237D87DE00BCC530 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E42FD46E237C032500412B97;
-			remoteInfo = SimpleInterfaceImplemented;
-		};
-		E42D2709237D87E400BCC530 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E42E0845237AFC5A00554134;
-			remoteInfo = SimpleInterfaceMocked;
-		};
 		E42E0855237AFC5B00554134 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = E42E0846237AFC5A00554134;
 			remoteInfo = SimpleInterface;
+		};
+		E42F16D9237EA1FB00C18261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E42FD46E237C032500412B97;
+			remoteInfo = SimpleInterfaceImplemented;
+		};
+		E42F16DB237EA20300C18261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E42E0845237AFC5A00554134;
+			remoteInfo = SimpleInterfaceMocked;
 		};
 		E42FD47D237C043D00412B97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -54,27 +57,35 @@
 			remoteGlobalIDString = E42FD47A237C032500412B97;
 			remoteInfo = SimpleInterfaceMock;
 		};
+		E4E13948237DAE2800A8DD7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4E13944237DAE2800A8DD7D /* Protocols.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4E13939237DAE2800A8DD7D;
+			remoteInfo = Protocols;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E42D270D237D87F600BCC530 /* Embed Frameworks */ = {
+		E42F16D5237EA1E500C18261 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E42D270C237D87F600BCC530 /* SimpleInterface.framework in Embed Frameworks */,
+				E42F1739237EC80400C18261 /* Pods_ModulesTestMocked.framework in Embed Frameworks */,
+				E42F16D4237EA1E500C18261 /* SimpleInterface.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E42D2710237D87FE00BCC530 /* Embed Frameworks */ = {
+		E42F16D8237EA1ED00C18261 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E42D270F237D87FE00BCC530 /* SimpleInterface.framework in Embed Frameworks */,
+				E42F16D7237EA1ED00C18261 /* SimpleInterface.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +93,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E81FE422259CFAD301EA8D8 /* Pods-ModulesTestMocked.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTestMocked.release.xcconfig"; path = "Target Support Files/Pods-ModulesTestMocked/Pods-ModulesTestMocked.release.xcconfig"; sourceTree = "<group>"; };
+		2F768F1CBBFDDB8C3DD75E98 /* Pods-ModulesTestImplementated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTestImplementated.release.xcconfig"; path = "Target Support Files/Pods-ModulesTestImplementated/Pods-ModulesTestImplementated.release.xcconfig"; sourceTree = "<group>"; };
+		4CA10218995065F13E078980 /* Pods_ModulesTestMocked.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModulesTestMocked.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64555E4B2E30E1A3B0575AFF /* Pods_ModulesTestImplementated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModulesTestImplementated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		784F6A9543AF44018B17071E /* Pods-ModulesTestMocked.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTestMocked.debug.xcconfig"; path = "Target Support Files/Pods-ModulesTestMocked/Pods-ModulesTestMocked.debug.xcconfig"; sourceTree = "<group>"; };
 		E42D2705237D86C200BCC530 /* Implemented-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Implemented-Info.plist"; sourceTree = "<group>"; };
 		E42E04F92379870100554134 /* ModulesTestImplementated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModulesTestImplementated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42E04FC2379870100554134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,8 +109,11 @@
 		E42E050A2379870200554134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E42E0820237AF15400554134 /* ModulesTestMocked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModulesTestMocked.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleInterface.xcodeproj; path = SimpleInterface/SimpleInterface.xcodeproj; sourceTree = "<group>"; };
+		E42F173B237EC81A00C18261 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E13944237DAE2800A8DD7D /* Protocols.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Protocols.xcodeproj; path = Protocols/Protocols.xcodeproj; sourceTree = "<group>"; };
 		E4E7E1DC237C33C00012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/default/SimpleInterface.framework"; sourceTree = "<group>"; };
 		E4E7E1E0237C33EB0012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/mock/SimpleInterface.framework"; sourceTree = "<group>"; };
+		E6F910B6954B8269AE5C2FD5 /* Pods-ModulesTestImplementated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTestImplementated.debug.xcconfig"; path = "Target Support Files/Pods-ModulesTestImplementated/Pods-ModulesTestImplementated.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +121,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42D270E237D87FE00BCC530 /* SimpleInterface.framework in Frameworks */,
+				E42F16D6237EA1ED00C18261 /* SimpleInterface.framework in Frameworks */,
+				DA44367778E1148EC0F62033 /* Pods_ModulesTestImplementated.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,20 +130,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42D270B237D87F600BCC530 /* SimpleInterface.framework in Frameworks */,
+				E42F16D3237EA1E500C18261 /* SimpleInterface.framework in Frameworks */,
+				48E8BA516161561208904EFC /* Pods_ModulesTestMocked.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77CF6B93DB1C9AF36BCED946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F910B6954B8269AE5C2FD5 /* Pods-ModulesTestImplementated.debug.xcconfig */,
+				2F768F1CBBFDDB8C3DD75E98 /* Pods-ModulesTestImplementated.release.xcconfig */,
+				784F6A9543AF44018B17071E /* Pods-ModulesTestMocked.debug.xcconfig */,
+				0E81FE422259CFAD301EA8D8 /* Pods-ModulesTestMocked.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E42E04F02379870100554134 = {
 			isa = PBXGroup;
 			children = (
 				E42E04FB2379870100554134 /* ModulesTest */,
+				E4E13944237DAE2800A8DD7D /* Protocols.xcodeproj */,
 				E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */,
 				E42E04FA2379870100554134 /* Products */,
 				E42E0831237AF8C300554134 /* Frameworks */,
+				77CF6B93DB1C9AF36BCED946 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,8 +188,11 @@
 		E42E0831237AF8C300554134 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E42F173B237EC81A00C18261 /* RxSwift.framework */,
 				E4E7E1E0237C33EB0012429E /* SimpleInterface.framework */,
 				E4E7E1DC237C33C00012429E /* SimpleInterface.framework */,
+				64555E4B2E30E1A3B0575AFF /* Pods_ModulesTestImplementated.framework */,
+				4CA10218995065F13E078980 /* Pods_ModulesTestMocked.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,6 +206,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E4E13945237DAE2800A8DD7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4E13949237DAE2800A8DD7D /* Protocols.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,15 +221,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E42E050D2379870200554134 /* Build configuration list for PBXNativeTarget "ModulesTestImplementated" */;
 			buildPhases = (
+				D76854BD68931B6534B7C03D /* [CP] Check Pods Manifest.lock */,
 				E42E04F52379870100554134 /* Sources */,
 				E42E04F62379870100554134 /* Frameworks */,
 				E42E04F72379870100554134 /* Resources */,
-				E42D2710237D87FE00BCC530 /* Embed Frameworks */,
+				E42F16D8237EA1ED00C18261 /* Embed Frameworks */,
+				D2FEDDED7A23A21BCC64BDAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E42D2708237D87DE00BCC530 /* PBXTargetDependency */,
+				E42F16DA237EA1FB00C18261 /* PBXTargetDependency */,
 			);
 			name = ModulesTestImplementated;
 			productName = ModulesTest1;
@@ -195,15 +242,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E42E081D237AF15400554134 /* Build configuration list for PBXNativeTarget "ModulesTestMocked" */;
 			buildPhases = (
+				30F278A5F776F123C6F902F9 /* [CP] Check Pods Manifest.lock */,
 				E42E0814237AF15400554134 /* Sources */,
 				E42E0818237AF15400554134 /* Frameworks */,
 				E42E0819237AF15400554134 /* Resources */,
-				E42D270D237D87F600BCC530 /* Embed Frameworks */,
+				8DD38E6C15BA83BBC28AE5AF /* [CP] Embed Pods Frameworks */,
+				E42F16D5237EA1E500C18261 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E42D270A237D87E400BCC530 /* PBXTargetDependency */,
+				E42F16DC237EA20300C18261 /* PBXTargetDependency */,
 			);
 			name = ModulesTestMocked;
 			productName = ModulesTest1;
@@ -238,6 +287,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = E4E13945237DAE2800A8DD7D /* Products */;
+					ProjectRef = E4E13944237DAE2800A8DD7D /* Protocols.xcodeproj */;
+				},
+				{
 					ProductGroup = E42E0852237AFC5A00554134 /* Products */;
 					ProjectRef = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
 				},
@@ -265,6 +318,13 @@
 			remoteRef = E42FD47D237C043D00412B97 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		E4E13949237DAE2800A8DD7D /* Protocols.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Protocols.framework;
+			remoteRef = E4E13948237DAE2800A8DD7D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -290,6 +350,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30F278A5F776F123C6F902F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModulesTestMocked-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD38E6C15BA83BBC28AE5AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModulesTestMocked/Pods-ModulesTestMocked-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModulesTestMocked/Pods-ModulesTestMocked-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ModulesTestMocked/Pods-ModulesTestMocked-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FEDDED7A23A21BCC64BDAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModulesTestImplementated/Pods-ModulesTestImplementated-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModulesTestImplementated/Pods-ModulesTestImplementated-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ModulesTestImplementated/Pods-ModulesTestImplementated-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76854BD68931B6534B7C03D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModulesTestImplementated-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E42E04F52379870100554134 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -314,15 +455,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E42D2708237D87DE00BCC530 /* PBXTargetDependency */ = {
+		E42F16DA237EA1FB00C18261 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleInterfaceImplemented;
-			targetProxy = E42D2707237D87DE00BCC530 /* PBXContainerItemProxy */;
+			targetProxy = E42F16D9237EA1FB00C18261 /* PBXContainerItemProxy */;
 		};
-		E42D270A237D87E400BCC530 /* PBXTargetDependency */ = {
+		E42F16DC237EA20300C18261 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleInterfaceMocked;
-			targetProxy = E42D2709237D87E400BCC530 /* PBXContainerItemProxy */;
+			targetProxy = E42F16DB237EA20300C18261 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -401,10 +542,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64 x86 i386";
 			};
 			name = Debug;
 		};
@@ -461,11 +603,13 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64 x86 i386";
 			};
 			name = Release;
 		};
 		E42E050E2379870200554134 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F910B6954B8269AE5C2FD5 /* Pods-ModulesTestImplementated.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -485,6 +629,7 @@
 		};
 		E42E050F2379870200554134 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F768F1CBBFDDB8C3DD75E98 /* Pods-ModulesTestImplementated.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +649,7 @@
 		};
 		E42E081E237AF15400554134 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784F6A9543AF44018B17071E /* Pods-ModulesTestMocked.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +669,7 @@
 		};
 		E42E081F237AF15400554134 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E81FE422259CFAD301EA8D8 /* Pods-ModulesTestMocked.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
