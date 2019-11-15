@@ -8,16 +8,17 @@ use_frameworks!
 workspace 'ModulesTest.xcworkspace'
 
 def shared_pods
-  pod "RxSwift"
+  pod 'RxSwift'
+end
+  
+target 'ModulesTestMocked' do
+  shared_pods
+  project 'ModulesTest.xcodeproj'
 end
 
 target 'ModulesTestImplementated' do
   shared_pods
-end
-
-target 'ModulesTestMocked' do
-  shared_pods
-  
+  project 'ModulesTest.xcodeproj'
 end
 
 target 'Protocols' do
@@ -25,13 +26,19 @@ target 'Protocols' do
   project 'Protocols/Protocols.xcodeproj'
 end
 
-target 'SimpleInterfaceMocked' do
+abstract_target 'SimpleInterface' do
   shared_pods
-  project 'SimpleInterface/SimpleInterface.xcodeproj'
+  
+  target 'SimpleInterfaceMocked' do
+    project 'SimpleInterface/SimpleInterface.xcodeproj'
+  end
+  
+  target 'SimpleInterfaceImplemented' do
+    project 'SimpleInterface/SimpleInterface.xcodeproj'
+  end
+  
 end
 
-target 'SimpleInterfaceImplemented' do
-  shared_pods
-  project 'SimpleInterface/SimpleInterface.xcodeproj'
-end
-
+#  to add local pod use
+#  pod 'SimpleInterfaceMocked', :path => 'SimpleInterface'
+#  need to specifi podspec for pod

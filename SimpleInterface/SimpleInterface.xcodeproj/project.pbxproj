@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06964447329DB2A39C53D064 /* Pods_SimpleInterfaceMocked.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CBBA91FB601C272E3961B1 /* Pods_SimpleInterfaceMocked.framework */; };
-		CA5D114EBD84A9C79AA185F6 /* Pods_SimpleInterfaceImplemented.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B811C65C2C169EBA9B63BF69 /* Pods_SimpleInterfaceImplemented.framework */; };
+		5F3164878BBCA41EA161BEFA /* Pods_SimpleInterface_SimpleInterfaceImplemented.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E089E2E1BAEEEEBA809E5237 /* Pods_SimpleInterface_SimpleInterfaceImplemented.framework */; };
+		A8C6A8584BBE8759E5CB4A65 /* Pods_SimpleInterface_SimpleInterfaceMocked.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1138A84CEC3C7FBCE289D44A /* Pods_SimpleInterface_SimpleInterfaceMocked.framework */; };
 		E42D26F6237D539600BCC530 /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D26E0237C5B3000BCC530 /* Implementation.swift */; };
 		E42D26F9237D58F400BCC530 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D26DB237C5AB200BCC530 /* Mock.swift */; };
 		E42D26FB237D591100BCC530 /* BrandFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42D26FA237D591100BCC530 /* BrandFeatures.swift */; };
@@ -19,22 +19,15 @@
 		E42FD470237C032500412B97 /* SimpleInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = E42E0849237AFC5A00554134 /* SimpleInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E4E13961237DAF5700A8DD7D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4E1395D237DAF5700A8DD7D /* Protocols.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4E13939237DAE2800A8DD7D;
-			remoteInfo = Protocols;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		1138A84CEC3C7FBCE289D44A /* Pods_SimpleInterface_SimpleInterfaceMocked.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleInterface_SimpleInterfaceMocked.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B30A79282D4581B9BB68C11 /* Pods-SimpleInterfaceImplemented.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInterfaceImplemented.release.xcconfig"; path = "Target Support Files/Pods-SimpleInterfaceImplemented/Pods-SimpleInterfaceImplemented.release.xcconfig"; sourceTree = "<group>"; };
+		48F977DDBEFD9B79B1332F2D /* Pods-SimpleInterface-SimpleInterfaceImplemented.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInterface-SimpleInterfaceImplemented.release.xcconfig"; path = "Target Support Files/Pods-SimpleInterface-SimpleInterfaceImplemented/Pods-SimpleInterface-SimpleInterfaceImplemented.release.xcconfig"; sourceTree = "<group>"; };
 		53F1AD4C3FDEA4BF7E884AE2 /* Pods-SimpleInterfaceMocked.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInterfaceMocked.debug.xcconfig"; path = "Target Support Files/Pods-SimpleInterfaceMocked/Pods-SimpleInterfaceMocked.debug.xcconfig"; sourceTree = "<group>"; };
+		61E51458C141C5E80B699D8B /* Pods-SimpleInterface-SimpleInterfaceMocked.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInterface-SimpleInterfaceMocked.debug.xcconfig"; path = "Target Support Files/Pods-SimpleInterface-SimpleInterfaceMocked/Pods-SimpleInterface-SimpleInterfaceMocked.debug.xcconfig"; sourceTree = "<group>"; };
 		9302FDA628F7CDAC7B58849E /* Pods-SimpleInterfaceImplemented.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInterfaceImplemented.debug.xcconfig"; path = "Target Support Files/Pods-SimpleInterfaceImplemented/Pods-SimpleInterfaceImplemented.debug.xcconfig"; sourceTree = "<group>"; };
-		B811C65C2C169EBA9B63BF69 /* Pods_SimpleInterfaceImplemented.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleInterfaceImplemented.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0CBBA91FB601C272E3961B1 /* Pods_SimpleInterfaceMocked.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleInterfaceMocked.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F32CA46930892B2AB55B0A /* Pods-SimpleInterface-SimpleInterfaceImplemented.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInterface-SimpleInterfaceImplemented.debug.xcconfig"; path = "Target Support Files/Pods-SimpleInterface-SimpleInterfaceImplemented/Pods-SimpleInterface-SimpleInterfaceImplemented.debug.xcconfig"; sourceTree = "<group>"; };
+		E089E2E1BAEEEEBA809E5237 /* Pods_SimpleInterface_SimpleInterfaceImplemented.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleInterface_SimpleInterfaceImplemented.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42D26DB237C5AB200BCC530 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
 		E42D26E0237C5B3000BCC530 /* Implementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implementation.swift; sourceTree = "<group>"; };
 		E42D26FA237D591100BCC530 /* BrandFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandFeatures.swift; sourceTree = "<group>"; };
@@ -46,8 +39,8 @@
 		E42F16E4237EA4ED00C18261 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42F16E7237EA4F100C18261 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42FD47A237C032500412B97 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4E1395D237DAF5700A8DD7D /* Protocols.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Protocols.xcodeproj; path = ../Protocols/Protocols.xcodeproj; sourceTree = "<group>"; };
 		F97ABDF500E58197F9834583 /* Pods-SimpleInterfaceMocked.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInterfaceMocked.release.xcconfig"; path = "Target Support Files/Pods-SimpleInterfaceMocked/Pods-SimpleInterfaceMocked.release.xcconfig"; sourceTree = "<group>"; };
+		FE74BE5ED295E5072B6EB72C /* Pods-SimpleInterface-SimpleInterfaceMocked.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInterface-SimpleInterfaceMocked.release.xcconfig"; path = "Target Support Files/Pods-SimpleInterface-SimpleInterfaceMocked/Pods-SimpleInterface-SimpleInterfaceMocked.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06964447329DB2A39C53D064 /* Pods_SimpleInterfaceMocked.framework in Frameworks */,
+				A8C6A8584BBE8759E5CB4A65 /* Pods_SimpleInterface_SimpleInterfaceMocked.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5D114EBD84A9C79AA185F6 /* Pods_SimpleInterfaceImplemented.framework in Frameworks */,
+				5F3164878BBCA41EA161BEFA /* Pods_SimpleInterface_SimpleInterfaceImplemented.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +70,10 @@
 				F97ABDF500E58197F9834583 /* Pods-SimpleInterfaceMocked.release.xcconfig */,
 				9302FDA628F7CDAC7B58849E /* Pods-SimpleInterfaceImplemented.debug.xcconfig */,
 				2B30A79282D4581B9BB68C11 /* Pods-SimpleInterfaceImplemented.release.xcconfig */,
+				B2F32CA46930892B2AB55B0A /* Pods-SimpleInterface-SimpleInterfaceImplemented.debug.xcconfig */,
+				48F977DDBEFD9B79B1332F2D /* Pods-SimpleInterface-SimpleInterfaceImplemented.release.xcconfig */,
+				61E51458C141C5E80B699D8B /* Pods-SimpleInterface-SimpleInterfaceMocked.debug.xcconfig */,
+				FE74BE5ED295E5072B6EB72C /* Pods-SimpleInterface-SimpleInterfaceMocked.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -85,7 +82,6 @@
 		E42E083C237AFC5A00554134 = {
 			isa = PBXGroup;
 			children = (
-				E4E1395D237DAF5700A8DD7D /* Protocols.xcodeproj */,
 				E42E0848237AFC5A00554134 /* SimpleInterface */,
 				E42E0847237AFC5A00554134 /* Products */,
 				E4E13956237DAEBF00A8DD7D /* Frameworks */,
@@ -121,18 +117,10 @@
 			children = (
 				E42F16E7237EA4F100C18261 /* RxSwift.framework */,
 				E42F16E4237EA4ED00C18261 /* RxSwift.framework */,
-				C0CBBA91FB601C272E3961B1 /* Pods_SimpleInterfaceMocked.framework */,
-				B811C65C2C169EBA9B63BF69 /* Pods_SimpleInterfaceImplemented.framework */,
+				E089E2E1BAEEEEBA809E5237 /* Pods_SimpleInterface_SimpleInterfaceImplemented.framework */,
+				1138A84CEC3C7FBCE289D44A /* Pods_SimpleInterface_SimpleInterfaceMocked.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E4E1395E237DAF5700A8DD7D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E4E13962237DAF5700A8DD7D /* Protocols.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,12 +209,6 @@
 			mainGroup = E42E083C237AFC5A00554134;
 			productRefGroup = E42E0847237AFC5A00554134 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E4E1395E237DAF5700A8DD7D /* Products */;
-					ProjectRef = E4E1395D237DAF5700A8DD7D /* Protocols.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				E42E0845237AFC5A00554134 /* SimpleInterfaceMocked */,
@@ -234,16 +216,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		E4E13962237DAF5700A8DD7D /* Protocols.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Protocols.framework;
-			remoteRef = E4E13961237DAF5700A8DD7D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E42E0844237AFC5A00554134 /* Resources */ = {
@@ -278,7 +250,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SimpleInterfaceMocked-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SimpleInterface-SimpleInterfaceMocked-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -300,7 +272,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SimpleInterfaceImplemented-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SimpleInterface-SimpleInterfaceImplemented-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -463,7 +435,7 @@
 		};
 		E42E084F237AFC5A00554134 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53F1AD4C3FDEA4BF7E884AE2 /* Pods-SimpleInterfaceMocked.debug.xcconfig */;
+			baseConfigurationReference = 61E51458C141C5E80B699D8B /* Pods-SimpleInterface-SimpleInterfaceMocked.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -497,7 +469,7 @@
 		};
 		E42E0850237AFC5A00554134 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F97ABDF500E58197F9834583 /* Pods-SimpleInterfaceMocked.release.xcconfig */;
+			baseConfigurationReference = FE74BE5ED295E5072B6EB72C /* Pods-SimpleInterface-SimpleInterfaceMocked.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -530,7 +502,7 @@
 		};
 		E42FD478237C032500412B97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9302FDA628F7CDAC7B58849E /* Pods-SimpleInterfaceImplemented.debug.xcconfig */;
+			baseConfigurationReference = B2F32CA46930892B2AB55B0A /* Pods-SimpleInterface-SimpleInterfaceImplemented.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -559,7 +531,7 @@
 		};
 		E42FD479237C032500412B97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B30A79282D4581B9BB68C11 /* Pods-SimpleInterfaceImplemented.release.xcconfig */;
+			baseConfigurationReference = 48F977DDBEFD9B79B1332F2D /* Pods-SimpleInterface-SimpleInterfaceImplemented.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;

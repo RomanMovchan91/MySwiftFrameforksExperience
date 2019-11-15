@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48E8BA516161561208904EFC /* Pods_ModulesTestMocked.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA10218995065F13E078980 /* Pods_ModulesTestMocked.framework */; };
-		DA44367778E1148EC0F62033 /* Pods_ModulesTestImplementated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64555E4B2E30E1A3B0575AFF /* Pods_ModulesTestImplementated.framework */; };
+		412A76D4EFC4A754A2F914A2 /* Pods_ModulesTestMocked.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967E85BF8F2DD2AA03E00AFC /* Pods_ModulesTestMocked.framework */; };
+		898A0896FACDE9E180EF85BC /* Pods_ModulesTestImplementated.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB94B3D7C25BFCD0C68B9486 /* Pods_ModulesTestImplementated.framework */; };
 		E42E04FD2379870100554134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E04FC2379870100554134 /* AppDelegate.swift */; };
 		E42E04FF2379870100554134 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E04FE2379870100554134 /* SceneDelegate.swift */; };
 		E42E05012379870100554134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42E05002379870100554134 /* ViewController.swift */; };
@@ -21,48 +21,28 @@
 		E42E081A237AF15400554134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E05072379870200554134 /* LaunchScreen.storyboard */; };
 		E42E081B237AF15400554134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42E05052379870200554134 /* Assets.xcassets */; };
 		E42E081C237AF15400554134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E05022379870100554134 /* Main.storyboard */; };
-		E42F16D3237EA1E500C18261 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; };
-		E42F16D4237EA1E500C18261 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42E0856237AFC5B00554134 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E42F16D6237EA1ED00C18261 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; };
-		E42F16D7237EA1ED00C18261 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42FD47E237C043D00412B97 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E42F1739237EC80400C18261 /* Pods_ModulesTestMocked.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA10218995065F13E078980 /* Pods_ModulesTestMocked.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E42F1749237ECD5900C18261 /* Pods_ModulesTestImplementated.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 64555E4B2E30E1A3B0575AFF /* Pods_ModulesTestImplementated.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E42F176C237ED8EA00C18261 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42F1769237ED8B100C18261 /* SimpleInterface.framework */; };
+		E42F176D237ED8EA00C18261 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42F1769237ED8B100C18261 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E42F176E237ED8F200C18261 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42F176B237ED8B100C18261 /* SimpleInterface.framework */; };
+		E42F176F237ED8F200C18261 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42F176B237ED8B100C18261 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E42E0855237AFC5B00554134 /* PBXContainerItemProxy */ = {
+		E42F1768237ED8B100C18261 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
+			containerPortal = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = E42E0846237AFC5A00554134;
-			remoteInfo = SimpleInterface;
-		};
-		E42F16D9237EA1FB00C18261 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E42FD46E237C032500412B97;
-			remoteInfo = SimpleInterfaceImplemented;
-		};
-		E42F16DB237EA20300C18261 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E42E0845237AFC5A00554134;
 			remoteInfo = SimpleInterfaceMocked;
 		};
-		E42FD47D237C043D00412B97 /* PBXContainerItemProxy */ = {
+		E42F176A237ED8B100C18261 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
+			containerPortal = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = E42FD47A237C032500412B97;
-			remoteInfo = SimpleInterfaceMock;
-		};
-		E4E13948237DAE2800A8DD7D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4E13944237DAE2800A8DD7D /* Protocols.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4E13939237DAE2800A8DD7D;
-			remoteInfo = Protocols;
+			remoteInfo = SimpleInterfaceImplemented;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -73,8 +53,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				E42F176D237ED8EA00C18261 /* SimpleInterface.framework in Embed Frameworks */,
 				E42F1739237EC80400C18261 /* Pods_ModulesTestMocked.framework in Embed Frameworks */,
-				E42F16D4237EA1E500C18261 /* SimpleInterface.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,7 +65,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E42F16D7237EA1ED00C18261 /* SimpleInterface.framework in Embed Frameworks */,
+				E42F176F237ED8F200C18261 /* SimpleInterface.framework in Embed Frameworks */,
+				E42F1749237ECD5900C18261 /* Pods_ModulesTestImplementated.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,10 +75,15 @@
 
 /* Begin PBXFileReference section */
 		0E81FE422259CFAD301EA8D8 /* Pods-ModulesTestMocked.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTestMocked.release.xcconfig"; path = "Target Support Files/Pods-ModulesTestMocked/Pods-ModulesTestMocked.release.xcconfig"; sourceTree = "<group>"; };
+		1DE21A47FC09ACFEBCE67684 /* Pods-ModulesTest-ModulesTestMocked.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTest-ModulesTestMocked.release.xcconfig"; path = "Target Support Files/Pods-ModulesTest-ModulesTestMocked/Pods-ModulesTest-ModulesTestMocked.release.xcconfig"; sourceTree = "<group>"; };
 		2F768F1CBBFDDB8C3DD75E98 /* Pods-ModulesTestImplementated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTestImplementated.release.xcconfig"; path = "Target Support Files/Pods-ModulesTestImplementated/Pods-ModulesTestImplementated.release.xcconfig"; sourceTree = "<group>"; };
 		4CA10218995065F13E078980 /* Pods_ModulesTestMocked.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModulesTestMocked.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64555E4B2E30E1A3B0575AFF /* Pods_ModulesTestImplementated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModulesTestImplementated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		784F6A9543AF44018B17071E /* Pods-ModulesTestMocked.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTestMocked.debug.xcconfig"; path = "Target Support Files/Pods-ModulesTestMocked/Pods-ModulesTestMocked.debug.xcconfig"; sourceTree = "<group>"; };
+		83437FD0F2F8A1E9E567AEFB /* Pods-ModulesTest-ModulesTestImplementated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTest-ModulesTestImplementated.debug.xcconfig"; path = "Target Support Files/Pods-ModulesTest-ModulesTestImplementated/Pods-ModulesTest-ModulesTestImplementated.debug.xcconfig"; sourceTree = "<group>"; };
+		967E85BF8F2DD2AA03E00AFC /* Pods_ModulesTestMocked.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModulesTestMocked.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB94B3D7C25BFCD0C68B9486 /* Pods_ModulesTestImplementated.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModulesTestImplementated.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC277B86F7F7A9B997BC1FE6 /* Pods-ModulesTest-ModulesTestMocked.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTest-ModulesTestMocked.debug.xcconfig"; path = "Target Support Files/Pods-ModulesTest-ModulesTestMocked/Pods-ModulesTest-ModulesTestMocked.debug.xcconfig"; sourceTree = "<group>"; };
 		E42D2705237D86C200BCC530 /* Implemented-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Implemented-Info.plist"; sourceTree = "<group>"; };
 		E42E04F92379870100554134 /* ModulesTestImplementated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModulesTestImplementated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42E04FC2379870100554134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,12 +94,18 @@
 		E42E05082379870200554134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E42E050A2379870200554134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E42E0820237AF15400554134 /* ModulesTestMocked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModulesTestMocked.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleInterface.xcodeproj; path = SimpleInterface/SimpleInterface.xcodeproj; sourceTree = "<group>"; };
 		E42F173B237EC81A00C18261 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4E13944237DAE2800A8DD7D /* Protocols.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Protocols.xcodeproj; path = Protocols/Protocols.xcodeproj; sourceTree = "<group>"; };
+		E42F174C237ECDDE00C18261 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F174F237ECDE600C18261 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F1752237ECED000C18261 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F1755237ECED800C18261 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F1758237ECFDE00C18261 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F175B237ECFE300C18261 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleInterface.xcodeproj; path = SimpleInterface/SimpleInterface.xcodeproj; sourceTree = "<group>"; };
 		E4E7E1DC237C33C00012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/default/SimpleInterface.framework"; sourceTree = "<group>"; };
 		E4E7E1E0237C33EB0012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/mock/SimpleInterface.framework"; sourceTree = "<group>"; };
 		E6F910B6954B8269AE5C2FD5 /* Pods-ModulesTestImplementated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTestImplementated.debug.xcconfig"; path = "Target Support Files/Pods-ModulesTestImplementated/Pods-ModulesTestImplementated.debug.xcconfig"; sourceTree = "<group>"; };
+		F53C7EAB91DD2638A325A02C /* Pods-ModulesTest-ModulesTestImplementated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTest-ModulesTestImplementated.release.xcconfig"; path = "Target Support Files/Pods-ModulesTest-ModulesTestImplementated/Pods-ModulesTest-ModulesTestImplementated.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +113,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42F16D6237EA1ED00C18261 /* SimpleInterface.framework in Frameworks */,
-				DA44367778E1148EC0F62033 /* Pods_ModulesTestImplementated.framework in Frameworks */,
+				E42F176E237ED8F200C18261 /* SimpleInterface.framework in Frameworks */,
+				898A0896FACDE9E180EF85BC /* Pods_ModulesTestImplementated.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,8 +122,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42F16D3237EA1E500C18261 /* SimpleInterface.framework in Frameworks */,
-				48E8BA516161561208904EFC /* Pods_ModulesTestMocked.framework in Frameworks */,
+				E42F176C237ED8EA00C18261 /* SimpleInterface.framework in Frameworks */,
+				412A76D4EFC4A754A2F914A2 /* Pods_ModulesTestMocked.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +137,10 @@
 				2F768F1CBBFDDB8C3DD75E98 /* Pods-ModulesTestImplementated.release.xcconfig */,
 				784F6A9543AF44018B17071E /* Pods-ModulesTestMocked.debug.xcconfig */,
 				0E81FE422259CFAD301EA8D8 /* Pods-ModulesTestMocked.release.xcconfig */,
+				83437FD0F2F8A1E9E567AEFB /* Pods-ModulesTest-ModulesTestImplementated.debug.xcconfig */,
+				F53C7EAB91DD2638A325A02C /* Pods-ModulesTest-ModulesTestImplementated.release.xcconfig */,
+				DC277B86F7F7A9B997BC1FE6 /* Pods-ModulesTest-ModulesTestMocked.debug.xcconfig */,
+				1DE21A47FC09ACFEBCE67684 /* Pods-ModulesTest-ModulesTestMocked.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -152,12 +148,12 @@
 		E42E04F02379870100554134 = {
 			isa = PBXGroup;
 			children = (
+				E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */,
 				E42E04FB2379870100554134 /* ModulesTest */,
-				E4E13944237DAE2800A8DD7D /* Protocols.xcodeproj */,
-				E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */,
 				E42E04FA2379870100554134 /* Products */,
 				E42E0831237AF8C300554134 /* Frameworks */,
 				77CF6B93DB1C9AF36BCED946 /* Pods */,
+				E42F1760237ED7CF00C18261 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,28 +184,35 @@
 		E42E0831237AF8C300554134 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E42F175B237ECFE300C18261 /* SimpleInterface.framework */,
+				E42F1758237ECFDE00C18261 /* SimpleInterface.framework */,
+				E42F1755237ECED800C18261 /* SimpleInterface.framework */,
+				E42F1752237ECED000C18261 /* SimpleInterface.framework */,
+				E42F174F237ECDE600C18261 /* SimpleInterface.framework */,
+				E42F174C237ECDDE00C18261 /* SimpleInterface.framework */,
 				E42F173B237EC81A00C18261 /* RxSwift.framework */,
 				E4E7E1E0237C33EB0012429E /* SimpleInterface.framework */,
 				E4E7E1DC237C33C00012429E /* SimpleInterface.framework */,
-				64555E4B2E30E1A3B0575AFF /* Pods_ModulesTestImplementated.framework */,
-				4CA10218995065F13E078980 /* Pods_ModulesTestMocked.framework */,
+				AB94B3D7C25BFCD0C68B9486 /* Pods_ModulesTestImplementated.framework */,
+				967E85BF8F2DD2AA03E00AFC /* Pods_ModulesTestMocked.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E42E0852237AFC5A00554134 /* Products */ = {
+		E42F1760237ED7CF00C18261 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				E42E0856237AFC5B00554134 /* SimpleInterface.framework */,
-				E42FD47E237C043D00412B97 /* SimpleInterface.framework */,
+				4CA10218995065F13E078980 /* Pods_ModulesTestMocked.framework */,
+				64555E4B2E30E1A3B0575AFF /* Pods_ModulesTestImplementated.framework */,
 			);
-			name = Products;
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		E4E13945237DAE2800A8DD7D /* Products */ = {
+		E42F1764237ED8B100C18261 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4E13949237DAE2800A8DD7D /* Protocols.framework */,
+				E42F1769237ED8B100C18261 /* SimpleInterface.framework */,
+				E42F176B237ED8B100C18261 /* SimpleInterface.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,7 +234,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				E42F16DA237EA1FB00C18261 /* PBXTargetDependency */,
 			);
 			name = ModulesTestImplementated;
 			productName = ModulesTest1;
@@ -252,7 +254,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				E42F16DC237EA20300C18261 /* PBXTargetDependency */,
 			);
 			name = ModulesTestMocked;
 			productName = ModulesTest1;
@@ -287,12 +288,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = E4E13945237DAE2800A8DD7D /* Products */;
-					ProjectRef = E4E13944237DAE2800A8DD7D /* Protocols.xcodeproj */;
-				},
-				{
-					ProductGroup = E42E0852237AFC5A00554134 /* Products */;
-					ProjectRef = E42E0851237AFC5A00554134 /* SimpleInterface.xcodeproj */;
+					ProductGroup = E42F1764237ED8B100C18261 /* Products */;
+					ProjectRef = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -304,25 +301,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E42E0856237AFC5B00554134 /* SimpleInterface.framework */ = {
+		E42F1769237ED8B100C18261 /* SimpleInterface.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SimpleInterface.framework;
-			remoteRef = E42E0855237AFC5B00554134 /* PBXContainerItemProxy */;
+			remoteRef = E42F1768237ED8B100C18261 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E42FD47E237C043D00412B97 /* SimpleInterface.framework */ = {
+		E42F176B237ED8B100C18261 /* SimpleInterface.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SimpleInterface.framework;
-			remoteRef = E42FD47D237C043D00412B97 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E4E13949237DAE2800A8DD7D /* Protocols.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Protocols.framework;
-			remoteRef = E4E13948237DAE2800A8DD7D /* PBXContainerItemProxy */;
+			remoteRef = E42F176A237ED8B100C18261 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -454,19 +444,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		E42F16DA237EA1FB00C18261 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SimpleInterfaceImplemented;
-			targetProxy = E42F16D9237EA1FB00C18261 /* PBXContainerItemProxy */;
-		};
-		E42F16DC237EA20300C18261 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SimpleInterfaceMocked;
-			targetProxy = E42F16DB237EA20300C18261 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		E42E05022379870100554134 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -523,7 +500,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SYMROOT)/**";
+				FRAMEWORK_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/SimpleInterface/**\"";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -586,7 +563,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(SYMROOT)/**";
+				FRAMEWORK_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/SimpleInterface/**\"";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
