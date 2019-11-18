@@ -8,14 +8,15 @@
 
 import Foundation
 import RxSwift
+import Protocols
 
-extension BrandFeatures.Foo {
+class BrandFeature: BrandFeaturesItemStaticProtocol {
     
     public static var isSupported: Bool { return false }
     
     public static var observable: Observable<Int> { return Observable<Int>.just(2) }
     
-    public static func action() { print("Mocked BrandFeatures.Foo action") }
+    public static func action() { print("Mocked Bar action") }
     
     public func action() { Self.action() }
     

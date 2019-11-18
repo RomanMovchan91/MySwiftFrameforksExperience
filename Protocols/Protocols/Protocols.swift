@@ -20,5 +20,3 @@ public protocol BrandFeaturesItemProtocol: class, BrandFeaturesProtocol {
     static var observable: Observable<Int> { get }
 }
 public protocol BrandFeaturesItemStaticProtocol: BrandFeaturesItemProtocol, BrandFeaturesStaticProtocol { }
-
-

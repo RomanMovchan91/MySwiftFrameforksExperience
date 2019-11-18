@@ -23,40 +23,97 @@
 		E42E081C237AF15400554134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42E05022379870100554134 /* Main.storyboard */; };
 		E42F1739237EC80400C18261 /* Pods_ModulesTestMocked.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA10218995065F13E078980 /* Pods_ModulesTestMocked.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E42F1749237ECD5900C18261 /* Pods_ModulesTestImplementated.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 64555E4B2E30E1A3B0575AFF /* Pods_ModulesTestImplementated.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E42F17F8237EFB1000C18261 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42F1769237ED8B100C18261 /* SimpleInterface.framework */; };
-		E42F17F9237EFB1000C18261 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42F1769237ED8B100C18261 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E42F17FA237EFB1500C18261 /* SimpleInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42F176B237ED8B100C18261 /* SimpleInterface.framework */; };
-		E42F17FB237EFB1500C18261 /* SimpleInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E42F176B237ED8B100C18261 /* SimpleInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E446911B2382BD5100C9391A /* Protocols.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E446911A2382BD5100C9391A /* Protocols.framework */; };
+		E446911C2382BD5100C9391A /* Protocols.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E446911A2382BD5100C9391A /* Protocols.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E446911E2382BD5400C9391A /* Protocols.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E446911D2382BD5400C9391A /* Protocols.framework */; };
+		E446911F2382BD5400C9391A /* Protocols.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E446911D2382BD5400C9391A /* Protocols.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4F6E25A2382CC8200281F03 /* FeatureFoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F6E2572382CC7400281F03 /* FeatureFoo.framework */; };
+		E4F6E25B2382CC8200281F03 /* FeatureFoo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4F6E2572382CC7400281F03 /* FeatureFoo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4F6E25E2382CC9400281F03 /* FeatureFoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F6E2592382CC7400281F03 /* FeatureFoo.framework */; };
+		E4F6E25F2382CC9400281F03 /* FeatureFoo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4F6E2592382CC7400281F03 /* FeatureFoo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4F6E2982382CF7600281F03 /* FeatureBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F6E2952382CF7600281F03 /* FeatureBar.framework */; };
+		E4F6E2992382CF7600281F03 /* FeatureBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4F6E2952382CF7600281F03 /* FeatureBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4F6E29A2382CF7C00281F03 /* FeatureBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F6E2972382CF7600281F03 /* FeatureBar.framework */; };
+		E4F6E29B2382CF7C00281F03 /* FeatureBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4F6E2972382CF7600281F03 /* FeatureBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E42F1768237ED8B100C18261 /* PBXContainerItemProxy */ = {
+		E4F6E2062382BD7700281F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4F6E2022382BD7700281F03 /* Protocols.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4E13939237DAE2800A8DD7D;
+			remoteInfo = Protocols;
+		};
+		E4F6E2082382BD7D00281F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4F6E2022382BD7700281F03 /* Protocols.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E13938237DAE2800A8DD7D;
+			remoteInfo = Protocols;
+		};
+		E4F6E20A2382BD8000281F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4F6E2022382BD7700281F03 /* Protocols.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E13938237DAE2800A8DD7D;
+			remoteInfo = Protocols;
+		};
+		E4F6E2562382CC7400281F03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E42E0846237AFC5A00554134;
-			remoteInfo = SimpleInterfaceMocked;
+			remoteGlobalIDString = E4F6E2242382CA7D00281F03;
+			remoteInfo = FeatureFooMocked;
 		};
-		E42F176A237ED8B100C18261 /* PBXContainerItemProxy */ = {
+		E4F6E2582382CC7400281F03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E42FD47A237C032500412B97;
-			remoteInfo = SimpleInterfaceImplemented;
+			remoteGlobalIDString = E4F6E2522382CBE400281F03;
+			remoteInfo = FeatureFooImplemented;
 		};
-		E42F17FC237EFB1F00C18261 /* PBXContainerItemProxy */ = {
+		E4F6E25C2382CC8C00281F03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = E42E0845237AFC5A00554134;
-			remoteInfo = SimpleInterfaceMocked;
+			remoteGlobalIDString = E4F6E2122382CA7D00281F03;
+			remoteInfo = FeatureFooMocked;
 		};
-		E42F17FE237EFB2300C18261 /* PBXContainerItemProxy */ = {
+		E4F6E2602382CC9D00281F03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = E42FD46E237C032500412B97;
-			remoteInfo = SimpleInterfaceImplemented;
+			remoteGlobalIDString = E4F6E2422382CBE400281F03;
+			remoteInfo = FeatureFooImplemented;
+		};
+		E4F6E2942382CF7600281F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4F6E2772382CE7D00281F03;
+			remoteInfo = FeatureBarMocked;
+		};
+		E4F6E2962382CF7600281F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4F6E28B2382CE8000281F03;
+			remoteInfo = FeatureBarImplemented;
+		};
+		E4F6E29C2382CF8400281F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F6E2652382CE7D00281F03;
+			remoteInfo = FeatureBarMocked;
+		};
+		E4F6E29E2382CF8900281F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4F6E2792382CE8000281F03;
+			remoteInfo = FeatureBarImplemented;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -67,8 +124,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E42F17F9237EFB1000C18261 /* SimpleInterface.framework in Embed Frameworks */,
 				E42F1739237EC80400C18261 /* Pods_ModulesTestMocked.framework in Embed Frameworks */,
+				E4F6E2992382CF7600281F03 /* FeatureBar.framework in Embed Frameworks */,
+				E446911C2382BD5100C9391A /* Protocols.framework in Embed Frameworks */,
+				E4F6E25B2382CC8200281F03 /* FeatureFoo.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,8 +138,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E42F17FB237EFB1500C18261 /* SimpleInterface.framework in Embed Frameworks */,
 				E42F1749237ECD5900C18261 /* Pods_ModulesTestImplementated.framework in Embed Frameworks */,
+				E4F6E29B2382CF7C00281F03 /* FeatureBar.framework in Embed Frameworks */,
+				E446911F2382BD5400C9391A /* Protocols.framework in Embed Frameworks */,
+				E4F6E25F2382CC9400281F03 /* FeatureFoo.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,8 +177,11 @@
 		E42F1758237ECFDE00C18261 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42F175B237ECFE300C18261 /* SimpleInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SimpleInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleInterface.xcodeproj; path = SimpleInterface/SimpleInterface.xcodeproj; sourceTree = "<group>"; };
+		E446911A2382BD5100C9391A /* Protocols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Protocols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E446911D2382BD5400C9391A /* Protocols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Protocols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E7E1DC237C33C00012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/default/SimpleInterface.framework"; sourceTree = "<group>"; };
 		E4E7E1E0237C33EB0012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/mock/SimpleInterface.framework"; sourceTree = "<group>"; };
+		E4F6E2022382BD7700281F03 /* Protocols.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Protocols.xcodeproj; path = Protocols/Protocols.xcodeproj; sourceTree = "<group>"; };
 		E6F910B6954B8269AE5C2FD5 /* Pods-ModulesTestImplementated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTestImplementated.debug.xcconfig"; path = "Target Support Files/Pods-ModulesTestImplementated/Pods-ModulesTestImplementated.debug.xcconfig"; sourceTree = "<group>"; };
 		F53C7EAB91DD2638A325A02C /* Pods-ModulesTest-ModulesTestImplementated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTest-ModulesTestImplementated.release.xcconfig"; path = "Target Support Files/Pods-ModulesTest-ModulesTestImplementated/Pods-ModulesTest-ModulesTestImplementated.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,8 +191,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42F17FA237EFB1500C18261 /* SimpleInterface.framework in Frameworks */,
 				898A0896FACDE9E180EF85BC /* Pods_ModulesTestImplementated.framework in Frameworks */,
+				E4F6E29A2382CF7C00281F03 /* FeatureBar.framework in Frameworks */,
+				E446911E2382BD5400C9391A /* Protocols.framework in Frameworks */,
+				E4F6E25E2382CC9400281F03 /* FeatureFoo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +202,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42F17F8237EFB1000C18261 /* SimpleInterface.framework in Frameworks */,
 				412A76D4EFC4A754A2F914A2 /* Pods_ModulesTestMocked.framework in Frameworks */,
+				E4F6E2982382CF7600281F03 /* FeatureBar.framework in Frameworks */,
+				E446911B2382BD5100C9391A /* Protocols.framework in Frameworks */,
+				E4F6E25A2382CC8200281F03 /* FeatureFoo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +230,7 @@
 		E42E04F02379870100554134 = {
 			isa = PBXGroup;
 			children = (
+				E4F6E2022382BD7700281F03 /* Protocols.xcodeproj */,
 				E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */,
 				E42E04FB2379870100554134 /* ModulesTest */,
 				E42E04FA2379870100554134 /* Products */,
@@ -198,6 +267,8 @@
 		E42E0831237AF8C300554134 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E446911D2382BD5400C9391A /* Protocols.framework */,
+				E446911A2382BD5100C9391A /* Protocols.framework */,
 				E42F175B237ECFE300C18261 /* SimpleInterface.framework */,
 				E42F1758237ECFDE00C18261 /* SimpleInterface.framework */,
 				E42F1755237ECED800C18261 /* SimpleInterface.framework */,
@@ -225,8 +296,18 @@
 		E42F1764237ED8B100C18261 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E42F1769237ED8B100C18261 /* SimpleInterface.framework */,
-				E42F176B237ED8B100C18261 /* SimpleInterface.framework */,
+				E4F6E2572382CC7400281F03 /* FeatureFoo.framework */,
+				E4F6E2592382CC7400281F03 /* FeatureFoo.framework */,
+				E4F6E2952382CF7600281F03 /* FeatureBar.framework */,
+				E4F6E2972382CF7600281F03 /* FeatureBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4F6E2032382BD7700281F03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F6E2072382BD7700281F03 /* Protocols.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,7 +329,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				E42F17FF237EFB2300C18261 /* PBXTargetDependency */,
+				E4F6E29F2382CF8900281F03 /* PBXTargetDependency */,
+				E4F6E2612382CC9D00281F03 /* PBXTargetDependency */,
+				E4F6E2092382BD7D00281F03 /* PBXTargetDependency */,
 			);
 			name = ModulesTestImplementated;
 			productName = ModulesTest1;
@@ -269,7 +352,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				E42F17FD237EFB1F00C18261 /* PBXTargetDependency */,
+				E4F6E29D2382CF8400281F03 /* PBXTargetDependency */,
+				E4F6E25D2382CC8C00281F03 /* PBXTargetDependency */,
+				E4F6E20B2382BD8000281F03 /* PBXTargetDependency */,
 			);
 			name = ModulesTestMocked;
 			productName = ModulesTest1;
@@ -304,6 +389,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = E4F6E2032382BD7700281F03 /* Products */;
+					ProjectRef = E4F6E2022382BD7700281F03 /* Protocols.xcodeproj */;
+				},
+				{
 					ProductGroup = E42F1764237ED8B100C18261 /* Products */;
 					ProjectRef = E42F1763237ED8B100C18261 /* SimpleInterface.xcodeproj */;
 				},
@@ -317,18 +406,39 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E42F1769237ED8B100C18261 /* SimpleInterface.framework */ = {
+		E4F6E2072382BD7700281F03 /* Protocols.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SimpleInterface.framework;
-			remoteRef = E42F1768237ED8B100C18261 /* PBXContainerItemProxy */;
+			path = Protocols.framework;
+			remoteRef = E4F6E2062382BD7700281F03 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		E42F176B237ED8B100C18261 /* SimpleInterface.framework */ = {
+		E4F6E2572382CC7400281F03 /* FeatureFoo.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SimpleInterface.framework;
-			remoteRef = E42F176A237ED8B100C18261 /* PBXContainerItemProxy */;
+			path = FeatureFoo.framework;
+			remoteRef = E4F6E2562382CC7400281F03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E4F6E2592382CC7400281F03 /* FeatureFoo.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FeatureFoo.framework;
+			remoteRef = E4F6E2582382CC7400281F03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E4F6E2952382CF7600281F03 /* FeatureBar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FeatureBar.framework;
+			remoteRef = E4F6E2942382CF7600281F03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E4F6E2972382CF7600281F03 /* FeatureBar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FeatureBar.framework;
+			remoteRef = E4F6E2962382CF7600281F03 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -461,15 +571,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E42F17FD237EFB1F00C18261 /* PBXTargetDependency */ = {
+		E4F6E2092382BD7D00281F03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SimpleInterfaceMocked;
-			targetProxy = E42F17FC237EFB1F00C18261 /* PBXContainerItemProxy */;
+			name = Protocols;
+			targetProxy = E4F6E2082382BD7D00281F03 /* PBXContainerItemProxy */;
 		};
-		E42F17FF237EFB2300C18261 /* PBXTargetDependency */ = {
+		E4F6E20B2382BD8000281F03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SimpleInterfaceImplemented;
-			targetProxy = E42F17FE237EFB2300C18261 /* PBXContainerItemProxy */;
+			name = Protocols;
+			targetProxy = E4F6E20A2382BD8000281F03 /* PBXContainerItemProxy */;
+		};
+		E4F6E25D2382CC8C00281F03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FeatureFooMocked;
+			targetProxy = E4F6E25C2382CC8C00281F03 /* PBXContainerItemProxy */;
+		};
+		E4F6E2612382CC9D00281F03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FeatureFooImplemented;
+			targetProxy = E4F6E2602382CC9D00281F03 /* PBXContainerItemProxy */;
+		};
+		E4F6E29D2382CF8400281F03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FeatureBarMocked;
+			targetProxy = E4F6E29C2382CF8400281F03 /* PBXContainerItemProxy */;
+		};
+		E4F6E29F2382CF8900281F03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FeatureBarImplemented;
+			targetProxy = E4F6E29E2382CF8900281F03 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

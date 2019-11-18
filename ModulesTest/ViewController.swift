@@ -8,16 +8,14 @@
 
 import UIKit
 
-import SimpleInterface
-//import RxSwift
+import FeatureFoo
+import FeatureBar
 
-class ViewController: UIViewController, FooInjected {
+class ViewController: UIViewController, FooInjected, BarInjected {
 
     @IBAction private func ButtonPressed(_ target: Any) {
-//        self.foo.action()
-        BrandFeatures.Foo.action()
-        print("Foo supported: \(BrandFeatures.Foo.isSupported)")
-        BrandFeatures.Foo.observable.subscribe(onNext: { print($0) })
+        self.foo.action()
+        self.bar.action()
     }
     
 }

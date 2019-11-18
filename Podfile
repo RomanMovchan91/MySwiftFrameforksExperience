@@ -29,11 +29,19 @@ end
 abstract_target 'SimpleInterface' do
   shared_pods
   
-  target 'SimpleInterfaceMocked' do
+  target 'FeatureFooMocked' do
     project 'SimpleInterface/SimpleInterface.xcodeproj'
   end
   
-  target 'SimpleInterfaceImplemented' do
+  target 'FeatureFooImplemented' do
+    project 'SimpleInterface/SimpleInterface.xcodeproj'
+  end
+  
+  target 'FeatureBarMocked' do
+    project 'SimpleInterface/SimpleInterface.xcodeproj'
+  end
+  
+  target 'FeatureBarImplemented' do
     project 'SimpleInterface/SimpleInterface.xcodeproj'
   end
   

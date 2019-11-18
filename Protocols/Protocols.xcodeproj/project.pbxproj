@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BA6B109A97C00645F5E4B35D /* Pods_Protocols.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091C5C5B44224D03B018DD48 /* Pods_Protocols.framework */; };
-		E42F16F0237EAC3100C18261 /* Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42F16EF237EAC3100C18261 /* Default.swift */; };
 		E4E1393E237DAE2800A8DD7D /* Protocols.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E1393C237DAE2800A8DD7D /* Protocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4E1394B237DAE3700A8DD7D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1394A237DAE3700A8DD7D /* Protocols.swift */; };
 /* End PBXBuildFile section */
@@ -19,7 +18,6 @@
 		425368C5B1402A854A8C3A07 /* Pods-ModulesTestMocked-Protocols.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTestMocked-Protocols.release.xcconfig"; path = "Target Support Files/Pods-ModulesTestMocked-Protocols/Pods-ModulesTestMocked-Protocols.release.xcconfig"; sourceTree = "<group>"; };
 		62A58F2F97CB8AA2C4567E62 /* Pods-ModulesTestMocked-Protocols.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTestMocked-Protocols.debug.xcconfig"; path = "Target Support Files/Pods-ModulesTestMocked-Protocols/Pods-ModulesTestMocked-Protocols.debug.xcconfig"; sourceTree = "<group>"; };
 		E42F16EB237EA50000C18261 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E42F16EF237EAC3100C18261 /* Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Default.swift; sourceTree = "<group>"; };
 		E42F170E237EC0FC00C18261 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E13939237DAE2800A8DD7D /* Protocols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Protocols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E1393C237DAE2800A8DD7D /* Protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 				E4E1393C237DAE2800A8DD7D /* Protocols.h */,
 				E4E1393D237DAE2800A8DD7D /* Info.plist */,
 				E4E1394A237DAE3700A8DD7D /* Protocols.swift */,
-				E42F16EF237EAC3100C18261 /* Default.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -198,7 +195,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4E1394B237DAE3700A8DD7D /* Protocols.swift in Sources */,
-				E42F16F0237EAC3100C18261 /* Default.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E42E0845237AFC5A00554134"
-               BuildableName = "SimpleInterface.framework"
-               BlueprintName = "SimpleInterfaceMocked"
-               ReferencedContainer = "container:SimpleInterface.xcodeproj">
+               BlueprintIdentifier = "E4E13938237DAE2800A8DD7D"
+               BuildableName = "Protocols.framework"
+               BlueprintName = "Protocols"
+               ReferencedContainer = "container:Protocols.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,10 +50,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E42E0845237AFC5A00554134"
-            BuildableName = "SimpleInterface.framework"
-            BlueprintName = "SimpleInterfaceMocked"
-            ReferencedContainer = "container:SimpleInterface.xcodeproj">
+            BlueprintIdentifier = "E4E13938237DAE2800A8DD7D"
+            BuildableName = "Protocols.framework"
+            BlueprintName = "Protocols"
+            ReferencedContainer = "container:Protocols.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

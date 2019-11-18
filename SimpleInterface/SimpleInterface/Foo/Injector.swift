@@ -10,10 +10,11 @@ import Protocols
 
 public protocol FooInjected {
     var foo: BrandFeaturesItemProtocol { get }
+    
 }
 
 extension FooInjected {
     public var foo: BrandFeaturesItemProtocol {
-        return BrandFeatures.Foo()
+        return BrandFeature()
     }
 }
