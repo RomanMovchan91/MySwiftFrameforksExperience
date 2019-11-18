@@ -7,15 +7,13 @@
 //
 
 import UIKit
-
 import FeatureFoo
-import FeatureBar
 
-class ViewController: UIViewController, FooInjected, BarInjected {
+class ViewController: UIViewController, FooInjected {
 
     @IBAction private func ButtonPressed(_ target: Any) {
+        BrandFeatures.action()
         self.foo.action()
-        self.bar.action()
     }
     
 }

@@ -30,6 +30,10 @@
 		E4F6E28F2382CF2900281F03 /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6E2402382CB9A00281F03 /* Implementation.swift */; };
 		E4F6E2902382CF2C00281F03 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6E2412382CBB200281F03 /* Injector.swift */; };
 		E4F6E2912382CF2C00281F03 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6E2412382CBB200281F03 /* Injector.swift */; };
+		E4F6E2A72382D8B200281F03 /* FeatureContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6E2A62382D8B200281F03 /* FeatureContainer.swift */; };
+		E4F6E2A82382D8B200281F03 /* FeatureContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6E2A62382D8B200281F03 /* FeatureContainer.swift */; };
+		E4F6E2A92382D8B200281F03 /* FeatureContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6E2A62382D8B200281F03 /* FeatureContainer.swift */; };
+		E4F6E2AA2382D8B200281F03 /* FeatureContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6E2A62382D8B200281F03 /* FeatureContainer.swift */; };
 		F9BBC8AB792B55A6D3987F84 /* Pods_SimpleInterface_FeatureFooImplemented.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A8D6B8B54FEB9AE3F694F1 /* Pods_SimpleInterface_FeatureFooImplemented.framework */; };
 /* End PBXBuildFile section */
 
@@ -156,6 +160,7 @@
 		E4F6E2782382CE7E00281F03 /* BarMocked-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BarMocked-Info.plist"; path = "/Users/roman_movchan/StudyProjects/FrameworkTest/SimpleInterface/BarMocked-Info.plist"; sourceTree = "<absolute>"; };
 		E4F6E28B2382CE8000281F03 /* FeatureBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeatureBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F6E28C2382CE8000281F03 /* BarImplemented-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BarImplemented-Info.plist"; path = "/Users/roman_movchan/StudyProjects/FrameworkTest/SimpleInterface/BarImplemented-Info.plist"; sourceTree = "<absolute>"; };
+		E4F6E2A62382D8B200281F03 /* FeatureContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureContainer.swift; sourceTree = "<group>"; };
 		EBB923D0D84874F756F8034C /* Pods-SimpleInterface-FeatureBarMocked.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInterface-FeatureBarMocked.release.xcconfig"; path = "Target Support Files/Pods-SimpleInterface-FeatureBarMocked/Pods-SimpleInterface-FeatureBarMocked.release.xcconfig"; sourceTree = "<group>"; };
 		F97ABDF500E58197F9834583 /* Pods-SimpleInterfaceMocked.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInterfaceMocked.release.xcconfig"; path = "Target Support Files/Pods-SimpleInterfaceMocked/Pods-SimpleInterfaceMocked.release.xcconfig"; sourceTree = "<group>"; };
 		FE74BE5ED295E5072B6EB72C /* Pods-SimpleInterface-SimpleInterfaceMocked.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleInterface-SimpleInterfaceMocked.release.xcconfig"; path = "Target Support Files/Pods-SimpleInterface-SimpleInterfaceMocked/Pods-SimpleInterface-SimpleInterfaceMocked.release.xcconfig"; sourceTree = "<group>"; };
@@ -256,6 +261,7 @@
 			children = (
 				E4F6E23A2382CB1300281F03 /* Foo */,
 				E4F6E23E2382CB4500281F03 /* Bar */,
+				E4F6E2A62382D8B200281F03 /* FeatureContainer.swift */,
 				E42E0849237AFC5A00554134 /* SimpleInterface.h */,
 			);
 			path = SimpleInterface;
@@ -600,6 +606,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F6E2192382CA7D00281F03 /* Injector.swift in Sources */,
+				E4F6E2A72382D8B200281F03 /* FeatureContainer.swift in Sources */,
 				E4F6E21A2382CA7D00281F03 /* Mock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,6 +616,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F6E2632382CD0C00281F03 /* Implementation.swift in Sources */,
+				E4F6E2A82382D8B200281F03 /* FeatureContainer.swift in Sources */,
 				E4F6E2642382CD1400281F03 /* Injector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,6 +626,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F6E28D2382CF1700281F03 /* Mock.swift in Sources */,
+				E4F6E2A92382D8B200281F03 /* FeatureContainer.swift in Sources */,
 				E4F6E2912382CF2C00281F03 /* Injector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -627,6 +636,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F6E28F2382CF2900281F03 /* Implementation.swift in Sources */,
+				E4F6E2AA2382D8B200281F03 /* FeatureContainer.swift in Sources */,
 				E4F6E2902382CF2C00281F03 /* Injector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

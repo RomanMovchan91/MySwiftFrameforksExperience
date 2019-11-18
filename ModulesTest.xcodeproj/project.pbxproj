@@ -35,6 +35,8 @@
 		E4F6E2992382CF7600281F03 /* FeatureBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4F6E2952382CF7600281F03 /* FeatureBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E4F6E29A2382CF7C00281F03 /* FeatureBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F6E2972382CF7600281F03 /* FeatureBar.framework */; };
 		E4F6E29B2382CF7C00281F03 /* FeatureBar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E4F6E2972382CF7600281F03 /* FeatureBar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4F6E2A42382D34200281F03 /* BrandFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6E2A32382D34200281F03 /* BrandFeatures.swift */; };
+		E4F6E2A52382D34200281F03 /* BrandFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6E2A32382D34200281F03 /* BrandFeatures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +184,7 @@
 		E4E7E1DC237C33C00012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/default/SimpleInterface.framework"; sourceTree = "<group>"; };
 		E4E7E1E0237C33EB0012429E /* SimpleInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleInterface.framework; path = "../../Library/Developer/Xcode/DerivedData/ModulesTest1-gyjkysifdoxyhydrylcsmqoihwvb/Build/Products/Debug-iphonesimulator/mock/SimpleInterface.framework"; sourceTree = "<group>"; };
 		E4F6E2022382BD7700281F03 /* Protocols.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Protocols.xcodeproj; path = Protocols/Protocols.xcodeproj; sourceTree = "<group>"; };
+		E4F6E2A32382D34200281F03 /* BrandFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandFeatures.swift; sourceTree = "<group>"; };
 		E6F910B6954B8269AE5C2FD5 /* Pods-ModulesTestImplementated.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTestImplementated.debug.xcconfig"; path = "Target Support Files/Pods-ModulesTestImplementated/Pods-ModulesTestImplementated.debug.xcconfig"; sourceTree = "<group>"; };
 		F53C7EAB91DD2638A325A02C /* Pods-ModulesTest-ModulesTestImplementated.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulesTest-ModulesTestImplementated.release.xcconfig"; path = "Target Support Files/Pods-ModulesTest-ModulesTestImplementated/Pods-ModulesTest-ModulesTestImplementated.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -254,6 +257,7 @@
 			children = (
 				E42E04FC2379870100554134 /* AppDelegate.swift */,
 				E42E04FE2379870100554134 /* SceneDelegate.swift */,
+				E4F6E2A32382D34200281F03 /* BrandFeatures.swift */,
 				E42E05002379870100554134 /* ViewController.swift */,
 				E42E05022379870100554134 /* Main.storyboard */,
 				E42E05052379870200554134 /* Assets.xcassets */,
@@ -552,6 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F6E2A52382D34200281F03 /* BrandFeatures.swift in Sources */,
 				E42E05012379870100554134 /* ViewController.swift in Sources */,
 				E42E04FD2379870100554134 /* AppDelegate.swift in Sources */,
 				E42E04FF2379870100554134 /* SceneDelegate.swift in Sources */,
@@ -562,6 +567,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F6E2A42382D34200281F03 /* BrandFeatures.swift in Sources */,
 				E42E0815237AF15400554134 /* ViewController.swift in Sources */,
 				E42E0816237AF15400554134 /* AppDelegate.swift in Sources */,
 				E42E0817237AF15400554134 /* SceneDelegate.swift in Sources */,

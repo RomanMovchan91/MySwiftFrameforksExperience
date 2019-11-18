@@ -10,11 +10,20 @@ import Protocols
 
 public protocol BarInjected {
     var bar: BrandFeaturesItemProtocol { get }
-    
 }
 
 extension BarInjected {
     public var bar: BrandFeaturesItemProtocol {
-        return BrandFeature()
+        return FeatureContainer.shared.feature
+    }
+}
+
+public protocol BarStaticInjected {
+    static var bar: BrandFeaturesItemProtocol { get }
+}
+
+extension BarStaticInjected {
+    public static var bar: BrandFeaturesItemProtocol {
+        return FeatureContainer.shared.feature
     }
 }

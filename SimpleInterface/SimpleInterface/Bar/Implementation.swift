@@ -10,13 +10,13 @@ import Foundation
 import RxSwift
 import Protocols
 
-class BrandFeature: BrandFeaturesItemStaticProtocol {
+class BrandFeature: BrandFeaturesItemProtocol {
     
     public static var isSupported: Bool { return true }
 
     public static var observable: Observable<Int> { return Observable<Int>.just(42) }
 
-    public static func action() { print("Implemented Bar action") }
+    public static func action() { print("Bar implemented action") }
     
     public func action() { Self.action() }
     
