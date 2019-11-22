@@ -16,8 +16,18 @@ class BrandFeature: BrandFeaturesItemProtocol {
 
     public static var observable: Observable<Int> { return Observable<Int>.just(42) }
 
-    public static func action() { print("Bar implemented action") }
+    public static func action<SomeModel: SomeModelProtocol>(model: SomeModel) {
+        print("Bar implemented action")
+        model.printValue()
+        print("".baz)
+    }
     
-    public func action() { Self.action() }
+    public func action<SomeModel: SomeModelProtocol>(model: SomeModel) { Self.action(model: model) }
     
+}
+
+extension String: BazInjected {
+    public var baz: String {
+        return "BAR IMPLEMENTATION BAZ"
+    }
 }

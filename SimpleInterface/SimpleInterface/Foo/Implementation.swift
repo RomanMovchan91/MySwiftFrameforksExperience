@@ -16,13 +16,21 @@ class BrandFeature: BrandFeaturesItemProtocol {
 
     public static var observable: Observable<Int> { return Observable<Int>.just(42) }
 
-    public static func action() {
+    public static func action<SomeModel: SomeModelProtocol>(model: SomeModel) {
         print("Foo implemented action. Counter: \(Self.actionCounter)")
+        model.printValue()
         Self.actionCounter += 1
+        print("".baz)
     }
     
-    public func action() { Self.action() }
+    public func action<SomeModel: SomeModelProtocol>(model: SomeModel) { Self.action(model: model) }
     
     
     private static var actionCounter: Int = 0
+}
+
+extension String: BazInjected {
+    public var baz: String {
+        return "FOO IMPLEMENTATION BAZ"
+    }
 }
